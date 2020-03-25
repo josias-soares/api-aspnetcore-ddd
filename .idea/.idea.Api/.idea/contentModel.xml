@@ -45,6 +45,9 @@
           <e p="MyContext.cs" t="Include" />
         </e>
         <e p="Data.csproj" t="IncludeRecursive" />
+        <e p="Implementations" t="Include">
+          <e p="UserImplementation.cs" t="Include" />
+        </e>
         <e p="Mapping" t="Include">
           <e p="UserMap.cs" t="Include" />
         </e>
@@ -75,6 +78,7 @@
           <e p="IRepository.cs" t="Include" />
           <e p="Services" t="Include">
             <e p="Users" t="Include">
+              <e p="ILoginService.cs" t="Include" />
               <e p="IUserService.cs" t="Include" />
             </e>
           </e>
@@ -85,6 +89,9 @@
               <e p="Domain.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
+        </e>
+        <e p="Repository" t="Include">
+          <e p="IUserRepository.cs" t="Include" />
         </e>
       </e>
       <e p="Api.Service" t="IncludeRecursive">
@@ -98,6 +105,7 @@
         </e>
         <e p="Service.csproj" t="IncludeRecursive" />
         <e p="Services" t="Include">
+          <e p="LoginService.cs" t="Include" />
           <e p="UserService.cs" t="Include" />
         </e>
       </e>
