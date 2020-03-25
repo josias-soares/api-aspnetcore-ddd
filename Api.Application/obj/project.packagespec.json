@@ -1,0 +1,77 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\SOURCES\\GitPessoal\\Curso NetCore\\api_netcore\\src\\Api.Application\\Application.csproj",
+    "projectName": "Application",
+    "projectPath": "C:\\SOURCES\\GitPessoal\\Curso NetCore\\api_netcore\\src\\Api.Application\\Application.csproj",
+    "outputPath": "C:\\SOURCES\\GitPessoal\\Curso NetCore\\api_netcore\\src\\Api.Application\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "sources": {
+      "http://nuget.sistemainfo.com.br/nuget": {},
+      "https://api.nuget.org/v3/index.json": {},
+      "https://nuget.telerik.com/nuget": {}
+    },
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {
+          "C:\\SOURCES\\GitPessoal\\Curso NetCore\\api_netcore\\src\\Api.CrossCutting\\CrossCutting.csproj": {
+            "projectPath": "C:\\SOURCES\\GitPessoal\\Curso NetCore\\api_netcore\\src\\Api.CrossCutting\\CrossCutting.csproj"
+          },
+          "C:\\SOURCES\\GitPessoal\\Curso NetCore\\api_netcore\\src\\Api.Domain\\Domain.csproj": {
+            "projectPath": "C:\\SOURCES\\GitPessoal\\Curso NetCore\\api_netcore\\src\\Api.Domain\\Domain.csproj"
+          },
+          "C:\\SOURCES\\GitPessoal\\Curso NetCore\\api_netcore\\src\\Api.Service\\Service.csproj": {
+            "projectPath": "C:\\SOURCES\\GitPessoal\\Curso NetCore\\api_netcore\\src\\Api.Service\\Service.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "Microsoft.AspNetCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        },
+        "Microsoft.AspNetCore.Razor.Design": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        },
+        "Swashbuckle.AspNetCore": {
+          "target": "Package",
+          "version": "[5.2.1, )"
+        },
+        "Swashbuckle.AspNetCore.Annotations": {
+          "target": "Package",
+          "version": "[5.2.1, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

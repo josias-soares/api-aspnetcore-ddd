@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\SOURCES\GitPessoal\Curso NetCore\api_netcore\src" t="IncludeFlat">
+      <e p="Api.Application" t="IncludeRecursive">
+        <e p="Application.csproj" t="IncludeRecursive" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="UsersController.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="Application.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+      </e>
+      <e p="Api.CrossCutting" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CrossCutting.csproj" t="IncludeRecursive" />
+        <e p="DependencyInjection" t="Include">
+          <e p="ConfigureRepository.cs" t="Include" />
+          <e p="ConfigureService.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="CrossCutting.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Api.Data" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Context" t="Include">
+          <e p="ContextFactory.cs" t="Include" />
+          <e p="MyContext.cs" t="Include" />
+        </e>
+        <e p="Data.csproj" t="IncludeRecursive" />
+        <e p="Mapping" t="Include">
+          <e p="UserMap.cs" t="Include" />
+        </e>
+        <e p="Migrations" t="Include">
+          <e p="20200319142544_UserMigration.cs" t="Include" />
+          <e p="20200319142544_UserMigration.Designer.cs" t="Include" />
+          <e p="MyContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="Data.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Repository" t="Include">
+          <e p="BaseRepository.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Api.Domain" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Domain.csproj" t="IncludeRecursive" />
+        <e p="Entities" t="Include">
+          <e p="BaseEntity.cs" t="Include" />
+          <e p="UserEntity.cs" t="Include" />
+        </e>
+        <e p="Interfaces" t="Include">
+          <e p="IRepository.cs" t="Include" />
+          <e p="Services" t="Include">
+            <e p="Users" t="Include">
+              <e p="IUserService.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="Domain.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Api.Service" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="Service.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Service.csproj" t="IncludeRecursive" />
+        <e p="Services" t="Include">
+          <e p="UserService.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Api.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+    <e p="C:\Users\josias.soares\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\josias.soares\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_Api.-348100051.00" t="ExcludeRecursive" />
+  </component>
+</project>

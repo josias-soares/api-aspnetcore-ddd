@@ -1,0 +1,16 @@
+C:\SOURCES\GitPessoal\Curso NetCore\api_netcore\src\Api.CrossCutting\bin\Debug\netcoreapp2.2\CrossCutting.deps.json
+C:\SOURCES\GitPessoal\Curso NetCore\api_netcore\src\Api.CrossCutting\bin\Debug\netcoreapp2.2\CrossCutting.dll
+C:\SOURCES\GitPessoal\Curso NetCore\api_netcore\src\Api.CrossCutting\bin\Debug\netcoreapp2.2\CrossCutting.pdb
+C:\SOURCES\GitPessoal\Curso NetCore\api_netcore\src\Api.CrossCutting\obj\Debug\netcoreapp2.2\CrossCutting.csprojAssemblyReference.cache
+C:\SOURCES\GitPessoal\Curso NetCore\api_netcore\src\Api.CrossCutting\obj\Debug\netcoreapp2.2\CrossCutting.csproj.CoreCompileInputs.cache
+C:\SOURCES\GitPessoal\Curso NetCore\api_netcore\src\Api.CrossCutting\obj\Debug\netcoreapp2.2\CrossCutting.AssemblyInfoInputs.cache
+C:\SOURCES\GitPessoal\Curso NetCore\api_netcore\src\Api.CrossCutting\obj\Debug\netcoreapp2.2\CrossCutting.AssemblyInfo.cs
+C:\SOURCES\GitPessoal\Curso NetCore\api_netcore\src\Api.CrossCutting\obj\Debug\netcoreapp2.2\CrossCutting.dll
+C:\SOURCES\GitPessoal\Curso NetCore\api_netcore\src\Api.CrossCutting\obj\Debug\netcoreapp2.2\CrossCutting.pdb
+C:\SOURCES\GitPessoal\Curso NetCore\api_netcore\src\Api.CrossCutting\bin\Debug\netcoreapp2.2\Data.dll
+C:\SOURCES\GitPessoal\Curso NetCore\api_netcore\src\Api.CrossCutting\bin\Debug\netcoreapp2.2\Domain.dll
+C:\SOURCES\GitPessoal\Curso NetCore\api_netcore\src\Api.CrossCutting\bin\Debug\netcoreapp2.2\Service.dll
+C:\SOURCES\GitPessoal\Curso NetCore\api_netcore\src\Api.CrossCutting\bin\Debug\netcoreapp2.2\Domain.pdb
+C:\SOURCES\GitPessoal\Curso NetCore\api_netcore\src\Api.CrossCutting\bin\Debug\netcoreapp2.2\Data.pdb
+C:\SOURCES\GitPessoal\Curso NetCore\api_netcore\src\Api.CrossCutting\bin\Debug\netcoreapp2.2\Service.pdb
+C:\SOURCES\GitPessoal\Curso NetCore\api_netcore\src\Api.CrossCutting\obj\Debug\netcoreapp2.2\CrossCutting.csproj.CopyComplete

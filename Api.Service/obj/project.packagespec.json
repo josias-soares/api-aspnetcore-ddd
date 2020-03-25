@@ -1,0 +1,55 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\SOURCES\\GitPessoal\\Curso NetCore\\api_netcore\\src\\Api.Service\\Service.csproj",
+    "projectName": "Service",
+    "projectPath": "C:\\SOURCES\\GitPessoal\\Curso NetCore\\api_netcore\\src\\Api.Service\\Service.csproj",
+    "outputPath": "C:\\SOURCES\\GitPessoal\\Curso NetCore\\api_netcore\\src\\Api.Service\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "sources": {
+      "http://nuget.sistemainfo.com.br/nuget": {},
+      "https://api.nuget.org/v3/index.json": {},
+      "https://nuget.telerik.com/nuget": {}
+    },
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {
+          "C:\\SOURCES\\GitPessoal\\Curso NetCore\\api_netcore\\src\\Api.Data\\Data.csproj": {
+            "projectPath": "C:\\SOURCES\\GitPessoal\\Curso NetCore\\api_netcore\\src\\Api.Data\\Data.csproj"
+          },
+          "C:\\SOURCES\\GitPessoal\\Curso NetCore\\api_netcore\\src\\Api.Domain\\Domain.csproj": {
+            "projectPath": "C:\\SOURCES\\GitPessoal\\Curso NetCore\\api_netcore\\src\\Api.Domain\\Domain.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

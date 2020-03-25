@@ -1,0 +1,14 @@
+C:\SOURCES\GitPessoal\Curso NetCore\api_netcore\src\Api.Data\bin\Debug\netcoreapp2.2\Data.deps.json
+C:\SOURCES\GitPessoal\Curso NetCore\api_netcore\src\Api.Data\bin\Debug\netcoreapp2.2\Data.dll
+C:\SOURCES\GitPessoal\Curso NetCore\api_netcore\src\Api.Data\bin\Debug\netcoreapp2.2\Data.pdb
+C:\SOURCES\GitPessoal\Curso NetCore\api_netcore\src\Api.Data\obj\Debug\netcoreapp2.2\Data.csprojAssemblyReference.cache
+C:\SOURCES\GitPessoal\Curso NetCore\api_netcore\src\Api.Data\obj\Debug\netcoreapp2.2\Data.csproj.CoreCompileInputs.cache
+C:\SOURCES\GitPessoal\Curso NetCore\api_netcore\src\Api.Data\obj\Debug\netcoreapp2.2\Data.AssemblyInfoInputs.cache
+C:\SOURCES\GitPessoal\Curso NetCore\api_netcore\src\Api.Data\obj\Debug\netcoreapp2.2\Data.AssemblyInfo.cs
+C:\SOURCES\GitPessoal\Curso NetCore\api_netcore\src\Api.Data\obj\Debug\netcoreapp2.2\Data.dll
+C:\SOURCES\GitPessoal\Curso NetCore\api_netcore\src\Api.Data\obj\Debug\netcoreapp2.2\Data.pdb
+C:\SOURCES\GitPessoal\Curso NetCore\api_netcore\src\Api.Data\bin\Debug\netcoreapp2.2\Data.runtimeconfig.json
+C:\SOURCES\GitPessoal\Curso NetCore\api_netcore\src\Api.Data\bin\Debug\netcoreapp2.2\Data.runtimeconfig.dev.json
+C:\SOURCES\GitPessoal\Curso NetCore\api_netcore\src\Api.Data\bin\Debug\netcoreapp2.2\Domain.dll
+C:\SOURCES\GitPessoal\Curso NetCore\api_netcore\src\Api.Data\bin\Debug\netcoreapp2.2\Domain.pdb
+C:\SOURCES\GitPessoal\Curso NetCore\api_netcore\src\Api.Data\obj\Debug\netcoreapp2.2\Data.csproj.CopyComplete
