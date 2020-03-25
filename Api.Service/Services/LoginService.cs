@@ -18,7 +18,7 @@ namespace Service.Services
         {
             if (entity != null && !string.IsNullOrWhiteSpace(entity.Email))
             {
-                return await _repository.FindBylogin(entity.Email);
+                return await _repository.FindByLogin(entity.Email);
             }
 
             return null;

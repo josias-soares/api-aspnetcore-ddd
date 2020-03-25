@@ -12,12 +12,12 @@ namespace Data.Implementations
     {
         private DbSet<UserEntity> _dataSet;
         
-        public UserImplementation(MyContext context, DbSet<UserEntity> dataSet) : base(context)
+        public UserImplementation(MyContext context) : base(context)
         {
-            _dataSet = dataSet;
+            _dataSet = context.Set<UserEntity>();
         }
 
-        public async Task<UserEntity> FindBylogin(string email)
+        public async Task<UserEntity> FindByLogin(string email)
         {
             return await _dataSet.FirstOrDefaultAsync(user => user.Email.Equals(email));
         }

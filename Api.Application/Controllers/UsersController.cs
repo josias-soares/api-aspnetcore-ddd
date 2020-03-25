@@ -39,6 +39,11 @@ namespace Application.Controllers
                 Console.WriteLine(e);
                 return StatusCode((int) HttpStatusCode.InternalServerError, e.Message);
             }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                return StatusCode((int) HttpStatusCode.InternalServerError, e.Message);
+            }
         }
         
         [HttpGet]
