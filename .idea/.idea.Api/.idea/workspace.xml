@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f7eff863-731a-49a0-b946-4ba7077a42b9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-    </list>
+    <list default="true" id="f7eff863-731a-49a0-b946-4ba7077a42b9" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +171,7 @@
       <workItem from="1585079736551" duration="3884000" />
       <workItem from="1585140350044" duration="4738000" />
       <workItem from="1585155007596" duration="12722000" />
-      <workItem from="1585312526634" duration="2737000" />
+      <workItem from="1585312526634" duration="2992000" />
     </task>
     <task id="LOCAL-00001" summary="Api + Swagger ok">
       <created>1585160902403</created>
@@ -217,7 +215,21 @@
       <option name="project" value="LOCAL" />
       <updated>1585315115617</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Ajustes no gitignore">
+      <created>1585315303156</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1585315303156</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Ajustes no gitignore">
+      <created>1585315424318</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1585315424318</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,10 +255,10 @@
     <MESSAGE value="Api + Swagger ok" />
     <MESSAGE value="Implementando Userservice" />
     <MESSAGE value="LoginController + INjeção de dependencia" />
-    <MESSAGE value="Ajustes no gitignore" />
     <MESSAGE value="Criando o DTO login" />
     <MESSAGE value="Ajustes no AppSettings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajustes no AppSettings" />
+    <MESSAGE value="Ajustes no gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajustes no gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
