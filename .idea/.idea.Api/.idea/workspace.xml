@@ -2,42 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7eff863-731a-49a0-b946-4ba7077a42b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Api.Domain/DTOs/LoginDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api.Domain/Security/SigningConfigurations.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api.Domain/Security/TokenConfigurations.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Api/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Api/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Api/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Application/Controllers/LoginController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Application/Controllers/LoginController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Application/bin/Debug/netcoreapp2.2/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Application/bin/Debug/netcoreapp2.2/Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Application/bin/Debug/netcoreapp2.2/Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Application/bin/Debug/netcoreapp2.2/Application.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Application/bin/Debug/netcoreapp2.2/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Application/bin/Debug/netcoreapp2.2/Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Application/bin/Debug/netcoreapp2.2/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Application/bin/Debug/netcoreapp2.2/Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Application/bin/Debug/netcoreapp2.2/Service.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Application/bin/Debug/netcoreapp2.2/Service.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Application/bin/Debug/netcoreapp2.2/Service.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Application/bin/Debug/netcoreapp2.2/Service.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api.Application/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Application/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api.Application/obj/Application.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Application/obj/Application.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api.Application/obj/Application.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Application/obj/Application.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api.Application/obj/Debug/netcoreapp2.2/Application.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Application/obj/Debug/netcoreapp2.2/Application.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Api.Application/obj/Debug/netcoreapp2.2/Application.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Application/obj/Debug/netcoreapp2.2/Application.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Application/obj/Debug/netcoreapp2.2/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Application/obj/Debug/netcoreapp2.2/Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Application/obj/Debug/netcoreapp2.2/Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Application/obj/Debug/netcoreapp2.2/Application.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.CrossCutting/bin/Debug/netcoreapp2.2/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Api.CrossCutting/bin/Debug/netcoreapp2.2/Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.CrossCutting/bin/Debug/netcoreapp2.2/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Api.CrossCutting/bin/Debug/netcoreapp2.2/Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.CrossCutting/bin/Debug/netcoreapp2.2/Service.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Api.CrossCutting/bin/Debug/netcoreapp2.2/Service.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.CrossCutting/bin/Debug/netcoreapp2.2/Service.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Api.CrossCutting/bin/Debug/netcoreapp2.2/Service.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api.Application/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Application/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api.CrossCutting/obj/CrossCutting.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Api.CrossCutting/obj/CrossCutting.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api.CrossCutting/obj/CrossCutting.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Api.CrossCutting/obj/CrossCutting.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api.CrossCutting/obj/CrossCutting.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Api.CrossCutting/obj/CrossCutting.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api.CrossCutting/obj/Debug/netcoreapp2.2/CrossCutting.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Api.CrossCutting/obj/Debug/netcoreapp2.2/CrossCutting.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Api.CrossCutting/obj/Debug/netcoreapp2.2/CrossCutting.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Api.CrossCutting/obj/Debug/netcoreapp2.2/CrossCutting.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Data/bin/Debug/netcoreapp2.2/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Data/bin/Debug/netcoreapp2.2/Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Data/bin/Debug/netcoreapp2.2/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Data/bin/Debug/netcoreapp2.2/Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api.CrossCutting/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Api.CrossCutting/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api.Data/obj/Data.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Data/obj/Data.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api.Data/obj/Data.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Data/obj/Data.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api.Data/obj/Debug/netcoreapp2.2/Data.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Data/obj/Debug/netcoreapp2.2/Data.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Api.Data/obj/Debug/netcoreapp2.2/Data.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Data/obj/Debug/netcoreapp2.2/Data.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Domain/Interfaces/Services/Users/ILoginService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Domain/Interfaces/Services/Users/ILoginService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Domain/bin/Debug/netcoreapp2.2/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Domain/bin/Debug/netcoreapp2.2/Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Domain/bin/Debug/netcoreapp2.2/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Domain/bin/Debug/netcoreapp2.2/Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api.Data/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Data/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api.Domain/Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Domain/Domain.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Api.Domain/obj/Debug/netcoreapp2.2/Domain.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Domain/obj/Debug/netcoreapp2.2/Domain.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Domain/obj/Debug/netcoreapp2.2/Domain.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Domain/obj/Debug/netcoreapp2.2/Domain.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Domain/obj/Debug/netcoreapp2.2/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Domain/obj/Debug/netcoreapp2.2/Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Domain/obj/Debug/netcoreapp2.2/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Domain/obj/Debug/netcoreapp2.2/Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Service/Services/LoginService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Service/Services/LoginService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Service/bin/Debug/netcoreapp2.2/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Service/bin/Debug/netcoreapp2.2/Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Service/bin/Debug/netcoreapp2.2/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Service/bin/Debug/netcoreapp2.2/Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Service/bin/Debug/netcoreapp2.2/Service.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Service/bin/Debug/netcoreapp2.2/Service.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Service/bin/Debug/netcoreapp2.2/Service.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Service/bin/Debug/netcoreapp2.2/Service.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Service/obj/Debug/netcoreapp2.2/Service.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Service/obj/Debug/netcoreapp2.2/Service.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Service/obj/Debug/netcoreapp2.2/Service.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Service/obj/Debug/netcoreapp2.2/Service.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Service/obj/Debug/netcoreapp2.2/Service.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Service/obj/Debug/netcoreapp2.2/Service.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api.Domain/obj/Debug/netcoreapp2.2/Domain.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Domain/obj/Debug/netcoreapp2.2/Domain.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api.Domain/obj/Domain.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Domain/obj/Domain.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api.Domain/obj/Domain.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Domain/obj/Domain.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api.Domain/obj/Domain.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Domain/obj/Domain.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api.Domain/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Domain/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api.Domain/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Domain/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api.Service/obj/Debug/netcoreapp2.2/Service.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Service/obj/Debug/netcoreapp2.2/Service.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api.Service/obj/Service.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Service/obj/Service.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api.Service/obj/Service.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Service/obj/Service.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api.Service/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Service/obj/project.assets.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,6 +78,8 @@
     <setting file="file://$PROJECT_DIR$/Api.Data/Migrations/MyContextModelSnapshot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Domain/Interfaces/IRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.CrossCutting/DependencyInjection/ConfigureService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.Domain/Security/SigningConfigurations.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.Domain/Security/TokenConfigurations.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Application/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Data/Repository/BaseRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Application/Controllers/UsersController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -119,6 +118,11 @@
         <option value="$PROJECT_DIR$/Api.Domain/Interfaces/Services/Users/ILoginService.cs" />
         <option value="$PROJECT_DIR$/Api.Service/Services/LoginService.cs" />
         <option value="$PROJECT_DIR$/Api.Application/Controllers/LoginController.cs" />
+        <option value="$PROJECT_DIR$/Api.Domain/Domain.csproj" />
+        <option value="$PROJECT_DIR$/Api.Domain/Security/TokenConfigurations.cs" />
+        <option value="$PROJECT_DIR$/Api.Domain/Security/SigninigConfigurations.cs" />
+        <option value="$PROJECT_DIR$/Api.Domain/Security/SigningConfigurations.cs" />
+        <option value="$PROJECT_DIR$/Api.Application/appsettings.json" />
       </list>
     </option>
   </component>
@@ -200,7 +204,7 @@
       <workItem from="1585079736551" duration="3884000" />
       <workItem from="1585140350044" duration="4738000" />
       <workItem from="1585155007596" duration="12722000" />
-      <workItem from="1585312526634" duration="1461000" />
+      <workItem from="1585312526634" duration="2409000" />
     </task>
     <task id="LOCAL-00001" summary="Api + Swagger ok">
       <created>1585160902403</created>
@@ -230,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585167695230</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Criando o DTO login">
+      <created>1585314074933</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585314074933</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,7 +268,8 @@
     <MESSAGE value="Implementando Userservice" />
     <MESSAGE value="LoginController + INjeção de dependencia" />
     <MESSAGE value="Ajustes no gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajustes no gitignore" />
+    <MESSAGE value="Criando o DTO login" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criando o DTO login" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -300,7 +312,7 @@
               <option value="855" />
             </startOffsets>
             <endOffsets>
-              <option value="899" />
+              <option value="900" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="7" />

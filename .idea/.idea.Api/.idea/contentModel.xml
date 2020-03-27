@@ -97,6 +97,10 @@
         <e p="Repository" t="Include">
           <e p="IUserRepository.cs" t="Include" />
         </e>
+        <e p="Security" t="Include">
+          <e p="SigningConfigurations.cs" t="Include" />
+          <e p="TokenConfigurations.cs" t="Include" />
+        </e>
       </e>
       <e p="Api.Service" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
