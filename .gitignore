@@ -1,6 +1,6 @@
-﻿
-# Created by https://www.gitignore.io/api/csharp,dotnetcore
-# Edit at https://www.gitignore.io/?templates=csharp,dotnetcore
+﻿﻿
+## Created by https://www.gitignore.io/api/csharp,dotnetcore
+## Edit at https://www.gitignore.io/?templates=csharp,dotnetcore
 
 ### Csharp ###
 ## Ignore Visual Studio temporary files, build results, and
@@ -408,5 +408,3 @@ bower_components/
 
 # Windows thumbnail cache files
 Thumbs.db
-
-# End of https://www.gitignore.io/api/csharp,dotnetcore
