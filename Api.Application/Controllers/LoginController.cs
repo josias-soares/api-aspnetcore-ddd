@@ -3,6 +3,7 @@ using System.Net;
 using System.Threading.Tasks;
 using Domain.DTOs;
 using Domain.Interfaces.Services.Users;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Application.Controllers
@@ -18,18 +19,19 @@ namespace Application.Controllers
             _service = service;
         }
         [HttpPost]
+        [AllowAnonymous]
 //        public async Task<object> Login([FromBody] LoginDto dto, [FromServices] ILoginService service)
-        public async Task<object> Login([FromBody] LoginDto dto)
+        public async Task<object> Login([FromBody] LoginRequestDto requestDto)
         {
             if (!ModelState.IsValid) 
                 return BadRequest(ModelState);
             
-            if (dto == null)
+            if (requestDto == null)
                 return BadRequest();
 
             try
             {
-                var result = await _service.FindByLogin(dto);
+                var result = await _service.FindByLogin(requestDto);
 
                 if (result == null)
                     return NotFound();

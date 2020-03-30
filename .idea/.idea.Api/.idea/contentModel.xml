@@ -13,7 +13,7 @@
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
-            <e p="netcoreapp2.2" t="Include">
+            <e p="netcoreapp3.1" t="Include">
               <e p="Application.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
@@ -33,7 +33,7 @@
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
-            <e p="netcoreapp2.2" t="Include">
+            <e p="netcoreapp3.1" t="Include">
               <e p="CrossCutting.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
@@ -59,7 +59,7 @@
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
-            <e p="netcoreapp2.2" t="Include">
+            <e p="netcoreapp3.1" t="Include">
               <e p="Data.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
@@ -72,7 +72,9 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Domain.csproj" t="IncludeRecursive" />
         <e p="DTOs" t="Include">
-          <e p="LoginDTO.cs" t="Include" />
+          <e p="LoginRequestDto.cs" t="Include" />
+          <e p="LoginResponseDto.cs" t="Include" />
+          <e p="ResponseBaseDto.cs" t="Include" />
         </e>
         <e p="Entities" t="Include">
           <e p="BaseEntity.cs" t="Include" />
@@ -89,7 +91,7 @@
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
-            <e p="netcoreapp2.2" t="Include">
+            <e p="netcoreapp3.1" t="Include">
               <e p="Domain.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
@@ -106,7 +108,7 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
-            <e p="netcoreapp2.2" t="Include">
+            <e p="netcoreapp3.1" t="Include">
               <e p="Service.AssemblyInfo.cs" t="Include" />
             </e>
           </e>

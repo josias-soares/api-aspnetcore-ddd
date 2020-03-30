@@ -2,7 +2,7 @@
 
 namespace Domain.DTOs
 {
-    public class LoginDto
+    public class LoginRequestDto
     {
         [Required(ErrorMessage = "Email is required.")]
         [EmailAddress(ErrorMessage = "Email is not valid.")]

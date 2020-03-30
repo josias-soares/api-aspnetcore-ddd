@@ -1,27 +1,96 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Security.Principal;
+using System.Threading.Tasks;
+using Api.Domain.Entities;
 using Domain.DTOs;
 using Domain.Interfaces.Services.Users;
 using Domain.Repository;
+using Domain.Security;
+using Microsoft.Extensions.Configuration;
+using Microsoft.IdentityModel.Tokens;
+using JwtRegisteredClaimNames = Microsoft.IdentityModel.JsonWebTokens.JwtRegisteredClaimNames;
 
 namespace Service.Services
 {
     public class LoginService : ILoginService
     {
         private IUserRepository _repository;
+        private SigningConfigurations _signingConfigurations;
+        private TokenConfigurations _tokenConfigurations;
+        private IConfiguration _configuration;
 
-        public LoginService(IUserRepository repository)
+        public LoginService(IUserRepository repository, SigningConfigurations signingConfigurations, TokenConfigurations tokenConfigurations, IConfiguration configuration)
         {
             _repository = repository;
+            _signingConfigurations = signingConfigurations;
+            _tokenConfigurations = tokenConfigurations;
+            _configuration = configuration;
         }
 
-        public async Task<object> FindByLogin(LoginDto dto)
+        public async Task<LoginResponseDto> FindByLogin(LoginRequestDto requestDto)
         {
-            if (dto != null && !string.IsNullOrWhiteSpace(dto.Email))
+            var response = new LoginResponseDto(false,  "Falha ao autenticar");
+            if (requestDto != null && !string.IsNullOrWhiteSpace(requestDto.Email))
             {
-                return await _repository.FindByLogin(dto.Email);
+                UserEntity entity = await _repository.FindByLogin(requestDto.Email);
+
+                if (entity == null)
+                {
+                    return response;
+                }
+                
+                var identity = new ClaimsIdentity(
+                    new GenericIdentity(entity.Email),
+                    new [] 
+                    {
+                        new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+                        new Claim(JwtRegisteredClaimNames.UniqueName, entity.Email), 
+                    }
+                    );
+                
+                DateTime createDate = DateTime.Now;
+                DateTime expirationDate = createDate + TimeSpan.FromSeconds(_tokenConfigurations.Seconds);
+                
+                var handler = new JwtSecurityTokenHandler();
+
+                var token =  CreateToken(identity, createDate, expirationDate, handler);
+
+                return SuccessObject(createDate, expirationDate, token, requestDto);
             }
 
-            return null;
+            return response;
+        }
+
+        private LoginResponseDto SuccessObject(in DateTime createDate, in DateTime expirationDate, string token, LoginRequestDto user)
+        {
+            return new LoginResponseDto (
+                true,
+                createDate.ToString("yyyy-MM-dd HH:mm:ss"), 
+                expirationDate.ToString("yyyy-MM-dd HH:mm:ss"), 
+                token, 
+                user.Email,
+                "Login efetuado com sucesso."
+            );
+        }
+
+        private string CreateToken(ClaimsIdentity identity, DateTime createDate, DateTime expirationDate,
+            JwtSecurityTokenHandler handler)
+        {
+            var securityToken = handler.CreateToken(new SecurityTokenDescriptor
+            {
+                Issuer = _tokenConfigurations.Issuer,
+                Audience = _tokenConfigurations.Audience,
+                SigningCredentials = _signingConfigurations.SigningCredentials,
+                Subject = identity,
+                NotBefore = createDate,
+                Expires = expirationDate
+            });
+
+            var token = handler.WriteToken(securityToken);
+
+            return token;
         }
     }
 }

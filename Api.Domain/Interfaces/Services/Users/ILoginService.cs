@@ -5,6 +5,6 @@ namespace Domain.Interfaces.Services.Users
 {
     public interface ILoginService
     {
-        Task<object> FindByLogin(LoginDto dto);
+        Task<LoginResponseDto> FindByLogin(LoginRequestDto requestDto);
     }
 }

@@ -3,6 +3,7 @@ using System.Net;
 using System.Threading.Tasks;
 using Api.Domain.Entities;
 using Domain.Interfaces.Services.Users;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Annotations;
 
@@ -20,6 +21,7 @@ namespace Application.Controllers
         }
 
         [HttpGet]
+        [Authorize("Bearer")]
         [SwaggerOperation(Summary = "Gets all users", Description = "Gets all users of database")]
         [SwaggerResponse(200, "OK")]
         [SwaggerResponse(400, "Bad Request - Verify your request")]
@@ -47,6 +49,7 @@ namespace Application.Controllers
         }
         
         [HttpGet]
+        [Authorize("Bearer")]
         [Route("{id}", Name = "GetWithId")]
         public async Task<ActionResult> Get(Guid id)
         {
@@ -67,6 +70,7 @@ namespace Application.Controllers
         }
         
         [HttpPost]
+        [Authorize("Bearer")]
         public async Task<ActionResult> Post([FromBody] UserEntity entity)
         {
             if (!ModelState.IsValid)
@@ -95,6 +99,7 @@ namespace Application.Controllers
         }
 
         [HttpPut]
+        [Authorize("Bearer")]
         public async Task<ActionResult> Put([FromBody] UserEntity entity)
         {
             if (!ModelState.IsValid)
@@ -123,6 +128,7 @@ namespace Application.Controllers
         }
 
         [HttpDelete]
+        [Authorize("Bearer")]
         [Route("{id}")]
         public async Task<ActionResult> Delete(Guid id)
         {
