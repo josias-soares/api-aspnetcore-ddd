@@ -2,36 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7eff863-731a-49a0-b946-4ba7077a42b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Api.CrossCutting/Mappings/DtoToModelProfile.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api.CrossCutting/Mappings/EntityToDtoProfile.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api.CrossCutting/Mappings/ModelToEntityProfile.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api.Data.Test/Api.Data.Test.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api.Data.Test/BaseTest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api.Data.Test/UsuarioCrudCompleto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api.Domain/DTOs/RequestBaseDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api.Domain/DTOs/User/UserDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api.Domain/DTOs/User/UserDtoCreate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api.Domain/DTOs/User/UserDtoCreateResult.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api.Domain/DTOs/User/UserDtoUpdate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api.Domain/DTOs/User/UserDtoUpdateResult.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api.Domain/Models/UserModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Api/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Api/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Api/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Application/Controllers/LoginController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Application/Controllers/LoginController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Application/Controllers/UsersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Application/Controllers/UsersController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Application/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Application/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Application/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Application/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.CrossCutting/CrossCutting.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Api.CrossCutting/CrossCutting.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.CrossCutting/DependencyInjection/ConfigureRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.CrossCutting/DependencyInjection/ConfigureRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Data/Data.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Data/Data.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Domain/DTOs/LoginRequestDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Domain/DTOs/Login/LoginRequestDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Domain/DTOs/LoginResponseDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Domain/DTOs/Login/LoginResponseDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Domain/Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Domain/Domain.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Domain/Interfaces/Services/Users/ILoginService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Domain/Interfaces/Services/Users/ILoginService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Domain/Interfaces/Services/Users/IUserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Domain/Interfaces/Services/Users/IUserService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Service/Service.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Service/Service.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Service/Services/LoginService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Service/Services/LoginService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Service/Services/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Service/Services/UserService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api.Application/Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Application/Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api.Data.Test/Api.Data.Test.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Data.Test/Api.Data.Test.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api.Data.Test/BaseTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Data.Test/BaseTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api.Data.Test/UsuarioCrudCompleto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Data.Test/UsuarioCrudCompleto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api.Data/Context/MyContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Data/Context/MyContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Api.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Api.sln" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,6 +40,7 @@
     <setting file="file://$PROJECT_DIR$/Api.Application/Controllers/LoginController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.CrossCutting/Mappings/ModelToEntityProfile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Domain/DTOs/User/UserDtoUpdate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.Service.Test/BaseTesteService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DD7BBB1E-B6CB-4178-A82C-D5136B2606B8/28/34a7ea69/HttpResponse.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/87E8CE02-3EE4-404D-9082-6C8A5038171A/46/89f79914/IActionResult.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B4EF600F-4A59-4FE2-865A-8F97F915FB9D/5c/73baaab0/ActionResult.cs" root0="SKIP_HIGHLIGHTING" />
@@ -118,9 +96,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Api.Data/Repository/BaseRepository.cs" />
-        <option value="$USER_HOME$/AppData/Roaming/NuGet/NuGet.Config" />
-        <option value="$PROJECT_DIR$/Api.Data/Context/MyContext.cs" />
         <option value="$PROJECT_DIR$/Api.Domain/Implementations/UserImplementation.cs" />
         <option value="$PROJECT_DIR$/Api.CrossCutting/DependencyInjection/ConfigureService.cs" />
         <option value="$PROJECT_DIR$/Api.Domain/Repository/IUserRepository.cs" />
@@ -165,10 +140,13 @@
         <option value="$PROJECT_DIR$/Api.CrossCutting/DependencyInjection/ConfigureRepository.cs" />
         <option value="$PROJECT_DIR$/Api.Application/Startup.cs" />
         <option value="$PROJECT_DIR$/Api.Application/appsettings.json" />
-        <option value="$PROJECT_DIR$/Api.Data.Test/Api.Data.Test.csproj" />
-        <option value="$PROJECT_DIR$/Api.Data.Test/BaseTest.cs" />
-        <option value="$PROJECT_DIR$/Api.Data.Test/UsuarioCrudCompleto.cs" />
         <option value="$PROJECT_DIR$/Api.Application/Properties/launchSettings.json" />
+        <option value="$PROJECT_DIR$/Api.Data.Test/BaseTest.cs" />
+        <option value="$PROJECT_DIR$/Api.Data/Context/MyContext.cs" />
+        <option value="$PROJECT_DIR$/Api.Data.Test/UsuarioCrudCompleto.cs" />
+        <option value="$PROJECT_DIR$/Api.Service.Test/Api.Services.Test.csproj" />
+        <option value="$PROJECT_DIR$/Api.Data.Test/Api.Data.Test.csproj" />
+        <option value="$PROJECT_DIR$/Api.Service.Test/BaseTesteService.cs" />
       </list>
     </option>
   </component>
@@ -187,7 +165,7 @@
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="RiderNuGetOptionsPageId" />
+    <property name="settings.editor.selected.configurable" value="RiderXUnitUnitTestingPageId" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -204,7 +182,7 @@
   <component name="RunManager" selected=".NET Launch Settings Profile.Application">
     <configuration name="Application" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Api.Application/Application.csproj" />
-      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v2.2" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
       <option name="LAUNCH_PROFILE_NAME" value="Application" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
@@ -232,6 +210,10 @@
         <option name="Build" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue=".NET Launch Settings Profile.Application" />
+      <item itemvalue=".NET Launch Settings Profile.Application: IIS Express" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -259,7 +241,9 @@
       <workItem from="1585677812869" duration="750000" />
       <workItem from="1586193218590" duration="4728000" />
       <workItem from="1595436500878" duration="14721000" />
-      <workItem from="1595507914525" duration="829000" />
+      <workItem from="1595507914525" duration="3491000" />
+      <workItem from="1595515607968" duration="2157000" />
+      <workItem from="1595518224499" duration="7490000" />
     </task>
     <task id="LOCAL-00001" summary="Api + Swagger ok">
       <created>1585160902403</created>
@@ -331,11 +315,28 @@
       <option name="project" value="LOCAL" />
       <updated>1585599823891</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Migration e Iniciando testes unitarios">
+      <created>1595508778307</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1595508778307</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UnitTestsCoverage.Settings">
+    <option name="coveragePercentColumnWidth" value="150" />
+    <option name="sortOrder" value="DESCENDING" />
+    <option name="sortedColumn" value="1" />
+    <option name="symbolColumnWidth" value="148" />
+    <coverage-tree-state>
+      <expand />
+      <select />
+    </coverage-tree-state>
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
@@ -361,7 +362,8 @@
     <MESSAGE value="Ajustes no AppSettings" />
     <MESSAGE value="Ajustes no gitignore" />
     <MESSAGE value="Atualização para 3.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Atualização para 3.1" />
+    <MESSAGE value="Migration e Iniciando testes unitarios" />
+    <option name="LAST_COMMIT_MESSAGE" value="Migration e Iniciando testes unitarios" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -528,42 +530,68 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Api.Data.Test/UsuarioCrudCompleto.cs</url>
-          <line>23</line>
+          <line>25</line>
           <properties documentPath="$PROJECT_DIR$/Api.Data.Test/UsuarioCrudCompleto.cs" initialLine="23">
             <startOffsets>
-              <option value="630" />
+              <option value="652" />
             </startOffsets>
             <endOffsets>
-              <option value="692" />
+              <option value="720" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Api.Data.Test/UsuarioCrudCompleto.cs</url>
-          <line>26</line>
+          <line>27</line>
           <properties documentPath="$PROJECT_DIR$/Api.Data.Test/UsuarioCrudCompleto.cs" initialLine="26">
             <startOffsets>
-              <option value="805" />
+              <option value="751" />
             </startOffsets>
             <endOffsets>
-              <option value="829" />
+              <option value="800" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="33" />
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Api.Data.Test/UsuarioCrudCompleto.cs</url>
-          <line>29</line>
-          <properties documentPath="$PROJECT_DIR$/Api.Data.Test/UsuarioCrudCompleto.cs" initialLine="29">
+          <url>file://$PROJECT_DIR$/Api.Data.Test/BaseTest.cs</url>
+          <line>21</line>
+          <properties documentPath="$PROJECT_DIR$/Api.Data.Test/BaseTest.cs" initialLine="21">
             <startOffsets>
-              <option value="909" />
+              <option value="519" />
             </startOffsets>
             <endOffsets>
-              <option value="1047" />
+              <option value="567" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="34" />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Api.Data.Test/BaseTest.cs</url>
+          <line>26</line>
+          <properties documentPath="$PROJECT_DIR$/Api.Data.Test/BaseTest.cs" initialLine="26">
+            <startOffsets>
+              <option value="818" />
+            </startOffsets>
+            <endOffsets>
+              <option value="877" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Api.Data.Test/BaseTest.cs</url>
+          <line>37</line>
+          <properties documentPath="$PROJECT_DIR$/Api.Data.Test/BaseTest.cs" initialLine="37">
+            <startOffsets>
+              <option value="1185" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1218" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="40" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

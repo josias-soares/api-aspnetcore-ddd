@@ -12,12 +12,12 @@ namespace Api.Data.Test
         }
     }
 
-    public class DbTest : IDisposable
+    public class DbTeste : IDisposable
     {
-        private string _dataBaseName = $"dbApiTest_{Guid.NewGuid().ToString().Replace("-", String.Empty)}";
-        public ServiceProvider ServiceProvider { get; set; }
+        private readonly string _dataBaseName = $"dbApiTest_{Guid.NewGuid().ToString().Replace("-", string.Empty)}";
+        public ServiceProvider ServiceProvider { get; private set; }
 
-        public DbTest()
+        public DbTeste()
         {
             var serviceCollection = new ServiceCollection();
             serviceCollection.AddDbContext<MyContext>(o => o.UseMySql(

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Threading.Tasks;
 using Api.Domain.Entities;
 using Data.Context;
@@ -6,13 +7,14 @@ using Data.Implementations;
 using Microsoft.Extensions.DependencyInjection;
 using Xunit;
 
+
 namespace Api.Data.Test
 {
-    public class UsuarioCrudCompleto : BaseTest, IClassFixture<DbTest>
+    public class UsuarioCrudCompleto : BaseTest, IClassFixture<DbTeste>
     {
         private ServiceProvider _serviceProvider;
 
-        public UsuarioCrudCompleto(DbTest dbTest)
+        public UsuarioCrudCompleto(DbTeste dbTest)
         {
             _serviceProvider = dbTest.ServiceProvider;
         }
@@ -21,30 +23,54 @@ namespace Api.Data.Test
         [Trait("CRUD", "UserEntity")]
         public async Task E_Possivel_Realizar_CRUD_Usuario()
         {
-            using (var context = _serviceProvider.GetService<MyContext>())
+            await using (var context = _serviceProvider.GetService<MyContext>())
             {
-                UserImplementation _repository = new UserImplementation(context);
-                var email = "Nome Test";
-                var name = "email@email.com";
-                
-                UserEntity entity = new UserEntity
-                {
-                    Name = name,
-                    Email = email
-                };
+                var repository = new UserImplementation(context);
 
-                var registroCriado = await _repository.InsertAsync(entity);
+                var entity = new UserEntity
+                {
+                    Name = Faker.Internet.Email(),
+                    Email = Faker.Name.FullName()
+                };
+                
+                // Insert
+                var registroCriado = await repository.InsertAsync(entity);
                 
                 Assert.NotNull(registroCriado);
                 
                 Assert.False(registroCriado.Id == Guid.Empty);
-                Assert.Equal(name, registroCriado.Name);
-                Assert.Equal(email, registroCriado.Email);
+                Assert.Equal(entity.Name, registroCriado.Name);
+                Assert.Equal(entity.Email, registroCriado.Email);
+
+                //Update
+                entity.Name = Faker.Name.First();
+                var registroAtualizado = await repository.UpdateAsync(entity);
+                Assert.NotNull(registroAtualizado);
+                Assert.Equal(entity.Email, registroAtualizado.Email);
+                Assert.Equal(entity.Name, registroAtualizado.Name);
+                
+                // Exist?
+                var registroExiste = await repository.ExistAsync(registroAtualizado.Id);
+                Assert.True(registroExiste);
+                
+                // Select
+                var registroSelecionado = await repository.SelectAsync(registroAtualizado.Id);
+                Assert.NotNull(registroSelecionado);
+                Assert.Equal(registroSelecionado.Name, registroAtualizado.Name);
+                Assert.Equal(registroSelecionado.Email, registroAtualizado.Email);
+                
+                // GetAll
+                var todosRegistros = await repository.SelectAsync();
+                Assert.NotNull(todosRegistros);
+                Assert.True(todosRegistros.Any());
+                
+                // Login
+                var usuarioPadrao = await repository.FindByLogin("adm@email.com");
+                Assert.NotNull(usuarioPadrao);
+                Assert.Equal("Administrador", usuarioPadrao.Name);
+                Assert.Equal("adm@email.com", usuarioPadrao.Email);
             }
         }
-        
-        
-        
         
     }
 }
