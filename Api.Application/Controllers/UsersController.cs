@@ -2,6 +2,7 @@
 using System.Net;
 using System.Threading.Tasks;
 using Api.Domain.Entities;
+using Domain.DTOs.User;
 using Domain.Interfaces.Services.Users;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -51,6 +52,7 @@ namespace Application.Controllers
         [HttpGet]
         [Authorize("Bearer")]
         [Route("{id}", Name = "GetWithId")]
+        [SwaggerResponse(204, "Usuario não encontrado")]
         public async Task<ActionResult> Get(Guid id)
         {
             if (!ModelState.IsValid)
@@ -60,7 +62,14 @@ namespace Application.Controllers
 
             try
             {
-                return Ok(await _service.Get(id));
+                var obj = await _service.Get(id);
+
+                if (obj == null)
+                {
+                    return NoContent();
+                }
+                
+                return  Ok(obj);
             }
             catch (ArgumentException e)
             {
@@ -71,7 +80,7 @@ namespace Application.Controllers
         
         [HttpPost]
         [Authorize("Bearer")]
-        public async Task<ActionResult> Post([FromBody] UserEntity entity)
+        public async Task<ActionResult> Post([FromBody] UserDtoCreate dto)
         {
             if (!ModelState.IsValid)
             {
@@ -80,7 +89,7 @@ namespace Application.Controllers
 
             try
             {
-                var result = await _service.Post(entity);
+                var result = await _service.Post(dto);
 
                 if (result == null)
                 {
@@ -100,7 +109,7 @@ namespace Application.Controllers
 
         [HttpPut]
         [Authorize("Bearer")]
-        public async Task<ActionResult> Put([FromBody] UserEntity entity)
+        public async Task<ActionResult> Put([FromBody] UserDtoUpdate dto)
         {
             if (!ModelState.IsValid)
             {
@@ -110,7 +119,7 @@ namespace Application.Controllers
            
             try
             {
-                var result = await _service.Put(entity);
+                var result = await _service.Put(dto);
 
                 if (result == null)
                 {

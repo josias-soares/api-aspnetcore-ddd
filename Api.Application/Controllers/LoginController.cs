@@ -2,6 +2,7 @@
 using System.Net;
 using System.Threading.Tasks;
 using Domain.DTOs;
+using Domain.DTOs.Login;
 using Domain.Interfaces.Services.Users;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;

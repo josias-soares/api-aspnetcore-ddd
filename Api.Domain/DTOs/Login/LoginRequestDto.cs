@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Domain.DTOs
+namespace Domain.DTOs.Login
 {
-    public class LoginRequestDto
+    public class LoginRequestDto : RequestBaseDto
     {
         [Required(ErrorMessage = "Email is required.")]
         [EmailAddress(ErrorMessage = "Email is not valid.")]

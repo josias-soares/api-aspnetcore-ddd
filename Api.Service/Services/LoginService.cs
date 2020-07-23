@@ -5,6 +5,7 @@ using System.Security.Principal;
 using System.Threading.Tasks;
 using Api.Domain.Entities;
 using Domain.DTOs;
+using Domain.DTOs.Login;
 using Domain.Interfaces.Services.Users;
 using Domain.Repository;
 using Domain.Security;
