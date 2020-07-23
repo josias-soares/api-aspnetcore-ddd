@@ -14,7 +14,7 @@ namespace Domain.Interfaces.Services.Users
 
         Task<UserDtoCreateResult> Post(UserDtoCreate dto);
 
-        Task<UserDtoCreateResult> Put(UserDtoUpdate dto);
+        Task<UserDtoUpdateResult> Put(UserDtoUpdate dto);
 
         Task<bool> Delete(Guid id);
     }

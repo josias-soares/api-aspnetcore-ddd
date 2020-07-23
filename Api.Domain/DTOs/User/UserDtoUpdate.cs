@@ -1,11 +1,12 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace Domain.DTOs.User
 {
     public class UserDtoUpdate 
     {
         [Required(ErrorMessage = "Id é um campo obrigatório")]
-        public string Id { get; set; }
+        public Guid Id { get; set; }
         
         [Required(ErrorMessage = "Nome é um campo obrigatório")]
         [StringLength(60, ErrorMessage = "Nome deve ter no máximo {1} caracteres")]

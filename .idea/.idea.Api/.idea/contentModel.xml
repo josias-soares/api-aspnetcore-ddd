@@ -161,6 +161,14 @@
             </e>
           </e>
         </e>
+        <e p="Usuario" t="Include">
+          <e p="QuandoForExecutadoDelete.cs" t="Include" />
+          <e p="QuandoForExecutadoGet.cs" t="Include" />
+          <e p="QuandoForExecutadoGetAll.cs" t="Include" />
+          <e p="QuandoForExecutadoPost.cs" t="Include" />
+          <e p="QuandoForExecutadoPut.cs" t="Include" />
+          <e p="UsuarioTestes.cs" t="Include" />
+        </e>
       </e>
       <e p="Api.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />

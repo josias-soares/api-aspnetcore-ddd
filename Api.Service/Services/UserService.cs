@@ -42,13 +42,13 @@ namespace Service.Services
             return _mapper.Map<UserDtoCreateResult>(result);
         }
 
-        public async Task<UserDtoCreateResult> Put(UserDtoUpdate dto)
+        public async Task<UserDtoUpdateResult> Put(UserDtoUpdate dto)
         {
             var model = _mapper.Map<UserModel>(dto);
             var entity = _mapper.Map<UserEntity>(model);
             var result =await _repository.UpdateAsync(entity);
             
-            return _mapper.Map<UserDtoCreateResult>(result);
+            return _mapper.Map<UserDtoUpdateResult>(result);
         }
 
         public async Task<bool> Delete(Guid id)
