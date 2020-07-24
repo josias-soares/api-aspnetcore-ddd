@@ -56,7 +56,7 @@ namespace Service.Services
                 
                 var handler = new JwtSecurityTokenHandler();
 
-                var token =  CreateToken(identity, createDate, expirationDate, handler);
+                string token =  CreateToken(identity, createDate, expirationDate, handler);
 
                 return SuccessObject(createDate, expirationDate, token, requestDto);
             }
@@ -68,8 +68,8 @@ namespace Service.Services
         {
             return new LoginResponseDto (
                 true,
-                createDate.ToString("yyyy-MM-dd HH:mm:ss"), 
-                expirationDate.ToString("yyyy-MM-dd HH:mm:ss"), 
+                createDate, //ToString("yyyy-MM-dd HH:mm:ss"), 
+                expirationDate, //.ToString("yyyy-MM-dd HH:mm:ss"), 
                 token, 
                 user.Email,
                 "Login efetuado com sucesso."

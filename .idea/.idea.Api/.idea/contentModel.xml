@@ -24,6 +24,27 @@
         </e>
         <e p="Startup.cs" t="Include" />
       </e>
+      <e p="Api.Application.Test" t="IncludeRecursive">
+        <e p="Api.Application.Test.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Api.Application.Test.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Usuario" t="Include">
+          <e p="QuandoRequisitarCreate" t="Include">
+            <e p="RetornoCreateBadRequest.cs" t="Include" />
+            <e p="RetornoCreatedOk.cs" t="Include" />
+          </e>
+          <e p="QuandoRequisitarUpdate" t="Include">
+            <e p="RetornoUpdateBadRequest.cs" t="Include" />
+            <e p="RetornoUpdateOK.cs" t="Include" />
+          </e>
+        </e>
+      </e>
       <e p="Api.CrossCutting" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="CrossCutting.csproj" t="IncludeRecursive" />
@@ -152,8 +173,14 @@
       </e>
       <e p="Api.Service.Test" t="IncludeRecursive">
         <e p="Api.Services.Test.csproj" t="IncludeRecursive" />
+        <e p="AutoMapper" t="Include">
+          <e p="UsuarioMapper.cs" t="Include" />
+        </e>
         <e p="BaseTesteService.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Login" t="Include">
+          <e p="QuandoForExecutadoLogin.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">

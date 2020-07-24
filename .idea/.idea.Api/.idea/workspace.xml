@@ -2,18 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7eff863-731a-49a0-b946-4ba7077a42b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Api.Service.Test/Usuario/QuandoForExecutadoDelete.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api.Service.Test/Usuario/QuandoForExecutadoGet.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api.Service.Test/Usuario/QuandoForExecutadoGetAll.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api.Service.Test/Usuario/QuandoForExecutadoPost.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api.Service.Test/Usuario/QuandoForExecutadoPut.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api.Service.Test/Usuario/UsuarioTestes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api.Application.Test/Api.Application.Test.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarCreate/RetornoCreateBadRequest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarCreate/RetornoCreatedOk.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarUpdate/RetornoUpdateBadRequest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarUpdate/RetornoUpdateOK.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api.Service.Test/AutoMapper/UsuarioMapper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api.Service.Test/Login/QuandoForExecutadoLogin.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Api/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Api/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Api/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Domain/DTOs/User/UserDtoUpdate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Domain/DTOs/User/UserDtoUpdate.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Domain/Interfaces/Services/Users/IUserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Domain/Interfaces/Services/Users/IUserService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Service.Test/Api.Services.Test.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Service.Test/Api.Services.Test.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Service/Services/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Service/Services/UserService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api.Domain/DTOs/Login/LoginResponseDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Domain/DTOs/Login/LoginResponseDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api.Service/Services/LoginService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Service/Services/LoginService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Api.sln" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +39,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Api.Service.Test/Login/QuandoForExecutadoLogin.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Domain/DTOs/Login/LoginRequestDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.Service.Test/AutoMapper/UsuarioMapper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.CrossCutting/Mappings/EntityToDtoProfile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Application/Controllers/LoginController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.CrossCutting/Mappings/ModelToEntityProfile.cs" root0="FORCE_HIGHLIGHTING" />
@@ -77,16 +79,20 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9CD23B5E-3B0C-4F80-A807-33BCFD1D82E1/70/c5a982ee/ExecutionContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/32C7DA0B-DE3E-4433-B1FA-3A6000248638/7d/28515fbb/ServiceCollectionServiceExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B472876C-267A-4954-B0F5-403C1E9387E1/68/92968085/DeveloperExceptionPageExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarUpdate/RetornoUpdateBadRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Service/Services/LoginService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Domain/Interfaces/Services/Users/ILoginService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarUpdate/RetornoUpdateOK.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Data/Context/MyContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Data/Context/ContextFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Roaming/NuGet/NuGet.Config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Data/Implementations/UserImplementation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3689EAD4-2DF5-4FC5-9210-AB09C2879459/e4/143d1481/IConfiguration.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Domain/Repository/IUserRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarCreate/RetornoCreateBadRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Data.Test/BaseTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Data/Mapping/UserMap.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarCreate/RetornoCreatedOk.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Data/Migrations/20200319142544_UserMigration.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Data/Migrations/20200319142544_UserMigration.Designer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Data/Migrations/MyContextModelSnapshot.cs" root0="FORCE_HIGHLIGHTING" />
@@ -106,23 +112,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Api.Domain/DTOs/LoginDto.cs" />
-        <option value="$PROJECT_DIR$/Api.Domain/Security/SigninigConfigurations.cs" />
-        <option value="$PROJECT_DIR$/Api.Domain/Security/SigningConfigurations.cs" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/Api.Domain/Security/TokenConfigurations.cs" />
-        <option value="$PROJECT_DIR$/Api.Domain/DTOs/LoginRequestDto.cs" />
-        <option value="$PROJECT_DIR$/Api.Domain/DTOs/LoginResponseDto.cs" />
-        <option value="$PROJECT_DIR$/Api.Domain/Interfaces/Services/Users/ILoginService.cs" />
-        <option value="$PROJECT_DIR$/Api.Domain/DTOs/ResponseBaseDto.cs" />
-        <option value="$PROJECT_DIR$/Api.Service/Services/LoginService.cs" />
-        <option value="$PROJECT_DIR$/Api.Application/Controllers/LoginController.cs" />
-        <option value="$PROJECT_DIR$/Api.Service/Service.csproj" />
-        <option value="$PROJECT_DIR$/Api.CrossCutting/CrossCutting.csproj" />
         <option value="$PROJECT_DIR$/Api.Data/Data.csproj" />
         <option value="$PROJECT_DIR$/Api.Domain/Domain.csproj" />
         <option value="$PROJECT_DIR$/Api.Application/Application.csproj" />
-        <option value="$PROJECT_DIR$/Api.Domain/DTOs/Login/LoginResponseDto.cs" />
         <option value="$PROJECT_DIR$/Api.Domain/DTOs/RequestBaseDto.cs" />
         <option value="$PROJECT_DIR$/Api.Domain/DTOs/Login/LoginRequestDto.cs" />
         <option value="$PROJECT_DIR$/Api.Domain/DTOs/User/UserRequestDto.cs" />
@@ -157,6 +149,20 @@
         <option value="$PROJECT_DIR$/Api.Domain/Interfaces/Services/Users/IUserService.cs" />
         <option value="$PROJECT_DIR$/Api.Service/Services/UserService.cs" />
         <option value="$PROJECT_DIR$/Api.Service.Test/Usuario/QuandoForExecutadoDelete.cs" />
+        <option value="$PROJECT_DIR$/Api.Service.Test/AutoMapper/UsuarioMapper.cs" />
+        <option value="$PROJECT_DIR$/Api.Service/Services/LoginService.cs" />
+        <option value="$PROJECT_DIR$/Api.Domain/DTOs/Login/LoginResponseDto.cs" />
+        <option value="$PROJECT_DIR$/Api.Service.Test/Login/QuandoForExecutadoLogin.cs" />
+        <option value="$PROJECT_DIR$/Api.Application.Test/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/Api.Application.Test/Api.Application.Test.csproj" />
+        <option value="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarCreate/Retorno_BadRequest.cs" />
+        <option value="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarCreate/Retorno_Created.cs" />
+        <option value="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarCreate/RetornoBadRequest.cs" />
+        <option value="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarUpdate/RetornoUpdate.cs" />
+        <option value="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarUpdate/RetornoUpdateOK.cs" />
+        <option value="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarCreate/RetornoCreatedOk.cs" />
+        <option value="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarUpdate/RetornoUpdateBadRequest.cs" />
+        <option value="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarCreate/RetornoCreateBadRequest.cs" />
       </list>
     </option>
   </component>
@@ -253,7 +259,8 @@
       <workItem from="1595436500878" duration="14721000" />
       <workItem from="1595507914525" duration="3491000" />
       <workItem from="1595515607968" duration="2157000" />
-      <workItem from="1595518224499" duration="13040000" />
+      <workItem from="1595518224499" duration="20013000" />
+      <workItem from="1595553822877" duration="4845000" />
     </task>
     <task id="LOCAL-00001" summary="Api + Swagger ok">
       <created>1585160902403</created>
@@ -339,7 +346,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595535001427</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Teste service OK">
+      <created>1595542158456</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1595542158456</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,9 +363,14 @@
     <option name="coveragePercentColumnWidth" value="150" />
     <option name="sortOrder" value="DESCENDING" />
     <option name="sortedColumn" value="1" />
-    <option name="symbolColumnWidth" value="148" />
+    <option name="symbolColumnWidth" value="185" />
     <coverage-tree-state>
-      <expand />
+      <expand>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+      </expand>
       <select />
     </coverage-tree-state>
   </component>
@@ -381,7 +400,8 @@
     <MESSAGE value="Atualização para 3.1" />
     <MESSAGE value="Migration e Iniciando testes unitarios" />
     <MESSAGE value="Teste CRUD Usuario finalizado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Teste CRUD Usuario finalizado" />
+    <MESSAGE value="Teste service OK" />
+    <option name="LAST_COMMIT_MESSAGE" value="Teste service OK" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -610,32 +630,6 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Api.Service.Test/Usuario/QuandoForExecutadoGet.cs</url>
-          <line>17</line>
-          <properties documentPath="$PROJECT_DIR$/Api.Service.Test/Usuario/QuandoForExecutadoGet.cs" initialLine="17">
-            <startOffsets>
-              <option value="496" />
-            </startOffsets>
-            <endOffsets>
-              <option value="536" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Api.Service.Test/Usuario/QuandoForExecutadoGet.cs</url>
-          <line>21</line>
-          <properties documentPath="$PROJECT_DIR$/Api.Service.Test/Usuario/QuandoForExecutadoGet.cs" initialLine="21">
-            <startOffsets>
-              <option value="671" />
-            </startOffsets>
-            <endOffsets>
-              <option value="714" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="43" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
