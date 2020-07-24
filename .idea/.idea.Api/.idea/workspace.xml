@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7eff863-731a-49a0-b946-4ba7077a42b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Api.Application.Test/Api.Application.Test.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarCreate/RetornoCreateBadRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarCreate/RetornoCreatedOk.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarUpdate/RetornoUpdateBadRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarUpdate/RetornoUpdateOK.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api.Service.Test/AutoMapper/UsuarioMapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api.Service.Test/Login/QuandoForExecutadoLogin.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Api/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Api/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Api/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Domain/DTOs/Login/LoginResponseDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Domain/DTOs/Login/LoginResponseDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Service/Services/LoginService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Service/Services/LoginService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Api.sln" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,9 +45,11 @@
     <setting file="file://$PROJECT_DIR$/Api.Service.Test/Usuario/QuandoForExecutadoGetAll.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B4EF600F-4A59-4FE2-865A-8F97F915FB9D/5c/73baaab0/ActionResult.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.CrossCutting/Mappings/DtoToModelProfile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarDelete/RetornoDeleteBadRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B4EF600F-4A59-4FE2-865A-8F97F915FB9D/4a/9f80848d/ObjectResult.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Service.Test/Usuario/QuandoForExecutadoGet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Service.Test/Usuario/UsuarioTestes.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarDelete/RetornoDeleteOK.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B4EF600F-4A59-4FE2-865A-8F97F915FB9D/2f/7054505d/BadRequestObjectResult.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Application/Controllers/UsersController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/E407D4BA-C36C-45DA-982B-FD389A659F31/0/IMapper.cs" root0="SKIP_HIGHLIGHTING" />
@@ -112,8 +104,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Api.Data/Data.csproj" />
-        <option value="$PROJECT_DIR$/Api.Domain/Domain.csproj" />
         <option value="$PROJECT_DIR$/Api.Application/Application.csproj" />
         <option value="$PROJECT_DIR$/Api.Domain/DTOs/RequestBaseDto.cs" />
         <option value="$PROJECT_DIR$/Api.Domain/DTOs/Login/LoginRequestDto.cs" />
@@ -163,6 +153,8 @@
         <option value="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarCreate/RetornoCreatedOk.cs" />
         <option value="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarUpdate/RetornoUpdateBadRequest.cs" />
         <option value="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarCreate/RetornoCreateBadRequest.cs" />
+        <option value="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarDelete/RetornoDeleteOK.cs" />
+        <option value="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarDelete/RetornoDeleteBadRequest.cs" />
       </list>
     </option>
   </component>
@@ -260,7 +252,7 @@
       <workItem from="1595507914525" duration="3491000" />
       <workItem from="1595515607968" duration="2157000" />
       <workItem from="1595518224499" duration="20013000" />
-      <workItem from="1595553822877" duration="4845000" />
+      <workItem from="1595553822877" duration="5462000" />
     </task>
     <task id="LOCAL-00001" summary="Api + Swagger ok">
       <created>1585160902403</created>
@@ -353,7 +345,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595542158456</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Testes na UserController">
+      <created>1595591381771</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1595591381771</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -401,7 +400,8 @@
     <MESSAGE value="Migration e Iniciando testes unitarios" />
     <MESSAGE value="Teste CRUD Usuario finalizado" />
     <MESSAGE value="Teste service OK" />
-    <option name="LAST_COMMIT_MESSAGE" value="Teste service OK" />
+    <MESSAGE value="Testes na UserController" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testes na UserController" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

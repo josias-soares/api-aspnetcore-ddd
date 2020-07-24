@@ -39,6 +39,10 @@
             <e p="RetornoCreateBadRequest.cs" t="Include" />
             <e p="RetornoCreatedOk.cs" t="Include" />
           </e>
+          <e p="QuandoRequisitarDelete" t="Include">
+            <e p="RetornoDeleteBadRequest.cs" t="Include" />
+            <e p="RetornoDeleteOK.cs" t="Include" />
+          </e>
           <e p="QuandoRequisitarUpdate" t="Include">
             <e p="RetornoUpdateBadRequest.cs" t="Include" />
             <e p="RetornoUpdateOK.cs" t="Include" />
