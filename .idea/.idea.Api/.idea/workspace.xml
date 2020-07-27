@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7eff863-731a-49a0-b946-4ba7077a42b9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarGet/RetornoGetBadRequest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarGet/RetornoGetNoContent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarGet/RetornoGetOk.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarGetAll/RetornoGetAllBadRequest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarGetAll/RetornoGetAllOk.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api.Integration.Test/Api.Integration.Test.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api.Integration.Test/UnitTest1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xunit.runner.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Api/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Api/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Api/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api.Application.Test/Api.Application.Test.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Application.Test/Api.Application.Test.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api.Application/Controllers/UsersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Application/Controllers/UsersController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Api.sln" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,32 +42,42 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Api.Service.Test/Login/QuandoForExecutadoLogin.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Domain/DTOs/Login/LoginRequestDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D8A88419-950C-46D4-9959-2E127A21CECF/12/ad9e992b/BadRequestResult.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Service.Test/AutoMapper/UsuarioMapper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.CrossCutting/Mappings/EntityToDtoProfile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Application/Controllers/LoginController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.CrossCutting/Mappings/ModelToEntityProfile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D8A88419-950C-46D4-9959-2E127A21CECF/0f/8aa1eaf1/StatusCodeResult.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Domain/DTOs/User/UserDtoUpdate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Service.Test/BaseTesteService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D8A88419-950C-46D4-9959-2E127A21CECF/c6/a8b6ef69/NoContentResult.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarGet/RetornoGetNoContent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarGet/RetornoGetBadRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DD7BBB1E-B6CB-4178-A82C-D5136B2606B8/28/34a7ea69/HttpResponse.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarGet/RetornoGetOk.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Service.Test/Usuario/QuandoForExecutadoDelete.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/87E8CE02-3EE4-404D-9082-6C8A5038171A/46/89f79914/IActionResult.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Service.Test/Usuario/QuandoForExecutadoPost.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Service.Test/Usuario/QuandoForExecutadoPut.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Service.Test/Usuario/QuandoForExecutadoGetAll.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B4EF600F-4A59-4FE2-865A-8F97F915FB9D/5c/73baaab0/ActionResult.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.Integration.Test/UnitTest1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.CrossCutting/Mappings/DtoToModelProfile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarDelete/RetornoDeleteBadRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B4EF600F-4A59-4FE2-865A-8F97F915FB9D/4a/9f80848d/ObjectResult.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Service.Test/Usuario/QuandoForExecutadoGet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Service.Test/Usuario/UsuarioTestes.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarGetAll/RetornoGetAllBadRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarDelete/RetornoDeleteOK.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B4EF600F-4A59-4FE2-865A-8F97F915FB9D/2f/7054505d/BadRequestObjectResult.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/95D243C5-2044-4A19-8315-833738F9B02C/3c/ba456ae2/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Application/Controllers/UsersController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/E407D4BA-C36C-45DA-982B-FD389A659F31/0/IMapper.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Domain/Entities/BaseEntity.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Service/Services/UserService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B4EF600F-4A59-4FE2-865A-8F97F915FB9D/dc/dbb3ca64/ControllerBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Domain/DTOs/User/UserDtoUpdateResult.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarGetAll/RetornoGetAllOk.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4CF17712-9ED0-4C5D-874D-48FEBCC62BBD/3F/OpenApiSecurityRequirement.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Domain/DTOs/ResponseBaseDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Data.Test/UsuarioCrudCompleto.cs" root0="FORCE_HIGHLIGHTING" />
@@ -104,22 +125,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Api.Application/Application.csproj" />
-        <option value="$PROJECT_DIR$/Api.Domain/DTOs/RequestBaseDto.cs" />
-        <option value="$PROJECT_DIR$/Api.Domain/DTOs/Login/LoginRequestDto.cs" />
-        <option value="$PROJECT_DIR$/Api.Domain/DTOs/User/UserRequestDto.cs" />
-        <option value="$PROJECT_DIR$/Api.Domain/DTOs/User/UserResponseDto.cs" />
-        <option value="$PROJECT_DIR$/Api.Domain/Models/UserModel.cs" />
-        <option value="$PROJECT_DIR$/Api.Domain/DTOs/User/UserCreateDto.cs" />
-        <option value="$PROJECT_DIR$/Api.Domain/DTOs/User/UserUpdateDto.cs" />
-        <option value="$PROJECT_DIR$/Api.Domain/DTOs/User/UserDtoUpdateResult.cs" />
-        <option value="$PROJECT_DIR$/Api.Domain/DTOs/User/UserDtoCreateResult.cs" />
         <option value="$PROJECT_DIR$/Api.Domain/DTOs/User/UserDtoCreate.cs" />
         <option value="$PROJECT_DIR$/Api.Domain/DTOs/User/UserDto.cs" />
         <option value="$PROJECT_DIR$/Api.CrossCutting/Mappings/DtoToModelProfile.cs" />
         <option value="$PROJECT_DIR$/Api.CrossCutting/Mappings/ModelToEntityProfile.cs" />
         <option value="$PROJECT_DIR$/Api.CrossCutting/Mappings/EntityToDtoProfile.cs" />
-        <option value="$PROJECT_DIR$/Api.Application/Controllers/UsersController.cs" />
         <option value="$PROJECT_DIR$/Api.CrossCutting/DependencyInjection/ConfigureRepository.cs" />
         <option value="$PROJECT_DIR$/Api.Application/Startup.cs" />
         <option value="$PROJECT_DIR$/Api.Application/appsettings.json" />
@@ -144,7 +154,6 @@
         <option value="$PROJECT_DIR$/Api.Domain/DTOs/Login/LoginResponseDto.cs" />
         <option value="$PROJECT_DIR$/Api.Service.Test/Login/QuandoForExecutadoLogin.cs" />
         <option value="$PROJECT_DIR$/Api.Application.Test/UnitTest1.cs" />
-        <option value="$PROJECT_DIR$/Api.Application.Test/Api.Application.Test.csproj" />
         <option value="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarCreate/Retorno_BadRequest.cs" />
         <option value="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarCreate/Retorno_Created.cs" />
         <option value="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarCreate/RetornoBadRequest.cs" />
@@ -153,8 +162,20 @@
         <option value="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarCreate/RetornoCreatedOk.cs" />
         <option value="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarUpdate/RetornoUpdateBadRequest.cs" />
         <option value="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarCreate/RetornoCreateBadRequest.cs" />
-        <option value="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarDelete/RetornoDeleteOK.cs" />
         <option value="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarDelete/RetornoDeleteBadRequest.cs" />
+        <option value="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarDelete/RetornoDeleteOK.cs" />
+        <option value="$PROJECT_DIR$/Api.Application/Controllers/UsersController.cs" />
+        <option value="$PROJECT_DIR$/xunit.runner.json" />
+        <option value="$PROJECT_DIR$/Api.Application.Test/Api.Application.Test.csproj" />
+        <option value="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarGet/RetornoGetOk.cs" />
+        <option value="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarGet/RetornoGetNoContent.cs" />
+        <option value="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarGet/RetornoGetAll.cs" />
+        <option value="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarGetAll/RetornoGetAll.cs" />
+        <option value="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarGetAll/RetornoGetAllOk.cs" />
+        <option value="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarGetAll/RetornoGetAllBadRequest.cs" />
+        <option value="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarGet/RetornoGetBadRequest.cs" />
+        <option value="$PROJECT_DIR$/Api.Integration.Test/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/Api.Integration.Test/Api.Integration.Test.csproj" />
       </list>
     </option>
   </component>
@@ -252,7 +273,9 @@
       <workItem from="1595507914525" duration="3491000" />
       <workItem from="1595515607968" duration="2157000" />
       <workItem from="1595518224499" duration="20013000" />
-      <workItem from="1595553822877" duration="5462000" />
+      <workItem from="1595553822877" duration="16218000" />
+      <workItem from="1595622332935" duration="1419000" />
+      <workItem from="1595854045463" duration="4334000" />
     </task>
     <task id="LOCAL-00001" summary="Api + Swagger ok">
       <created>1585160902403</created>
@@ -352,7 +375,21 @@
       <option name="project" value="LOCAL" />
       <updated>1595591381771</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Testes na UserController DELETE">
+      <created>1595592003887</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1595592003887</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Testes na UserController DELETE">
+      <created>1595592249388</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1595592249388</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -401,7 +438,8 @@
     <MESSAGE value="Teste CRUD Usuario finalizado" />
     <MESSAGE value="Teste service OK" />
     <MESSAGE value="Testes na UserController" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testes na UserController" />
+    <MESSAGE value="Testes na UserController DELETE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testes na UserController DELETE" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -438,39 +476,39 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Api.Application/Controllers/UsersController.cs</url>
-          <line>64</line>
+          <line>65</line>
           <properties documentPath="$PROJECT_DIR$/Api.Application/Controllers/UsersController.cs" initialLine="64">
             <startOffsets>
-              <option value="1850" />
+              <option value="1907" />
             </startOffsets>
             <endOffsets>
-              <option value="1883" />
+              <option value="1940" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Api.Application/Controllers/UsersController.cs</url>
-          <line>68</line>
+          <line>69</line>
           <properties documentPath="$PROJECT_DIR$/Api.Application/Controllers/UsersController.cs" initialLine="68">
             <startOffsets>
-              <option value="1956" />
+              <option value="2013" />
             </startOffsets>
             <endOffsets>
-              <option value="1975" />
+              <option value="2032" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Api.Application/Controllers/UsersController.cs</url>
-          <line>71</line>
+          <line>72</line>
           <properties documentPath="$PROJECT_DIR$/Api.Application/Controllers/UsersController.cs" initialLine="71">
             <startOffsets>
-              <option value="2027" />
+              <option value="2084" />
             </startOffsets>
             <endOffsets>
-              <option value="2043" />
+              <option value="2100" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="23" />
@@ -567,32 +605,6 @@
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Api.Data.Test/UsuarioCrudCompleto.cs</url>
-          <line>25</line>
-          <properties documentPath="$PROJECT_DIR$/Api.Data.Test/UsuarioCrudCompleto.cs" initialLine="23">
-            <startOffsets>
-              <option value="652" />
-            </startOffsets>
-            <endOffsets>
-              <option value="720" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Api.Data.Test/UsuarioCrudCompleto.cs</url>
-          <line>27</line>
-          <properties documentPath="$PROJECT_DIR$/Api.Data.Test/UsuarioCrudCompleto.cs" initialLine="26">
-            <startOffsets>
-              <option value="751" />
-            </startOffsets>
-            <endOffsets>
-              <option value="800" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Api.Data.Test/BaseTest.cs</url>
           <line>21</line>
           <properties documentPath="$PROJECT_DIR$/Api.Data.Test/BaseTest.cs" initialLine="21">
@@ -630,6 +642,19 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarGet/RetornoGetBadRequest.cs</url>
+          <line>32</line>
+          <properties documentPath="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarGet/RetornoGetBadRequest.cs" initialLine="32">
+            <startOffsets>
+              <option value="1081" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1132" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -52,7 +52,8 @@ namespace Application.Controllers
         [HttpGet]
         [Authorize("Bearer")]
         [Route("{id}", Name = "GetWithId")]
-        [SwaggerResponse(204, "Usuario não encontrado")]
+//        [SwaggerResponse(204, "Usuario não encontrado")]
+//        [SwaggerResponse(200, "Usuario encontrado")]
         public async Task<ActionResult> Get(Guid id)
         {
             if (!ModelState.IsValid)
