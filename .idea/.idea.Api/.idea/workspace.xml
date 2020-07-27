@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7eff863-731a-49a0-b946-4ba7077a42b9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Api.Integration.Test/BaseIntegration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api.Integration.Test/LoginResponseDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api.Integration.Test/TesteLogin.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Api/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Api/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Api/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Api.Application/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Application/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Application/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Application/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Service/Services/LoginService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Service/Services/LoginService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api.Domain/Security/TokenConfigurations.cs" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,13 +100,16 @@
     <setting file="file://$PROJECT_DIR$/Api.Data.Test/BaseTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Data/Mapping/UserMap.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarCreate/RetornoCreatedOk.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.Integration.Test/TesteLogin.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Data/Migrations/20200319142544_UserMigration.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.Integration.Test/BaseIntegration.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Data/Migrations/20200319142544_UserMigration.Designer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Data/Migrations/MyContextModelSnapshot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.Integration.Test/LoginResponseDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Domain/Interfaces/IRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5FCEA300-8C77-4F3A-AFF4-2C62E6BED9B8/17/9f3d655e/ConfigureFromConfigurationOptions`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.CrossCutting/DependencyInjection/ConfigureService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Domain/Security/SigningConfigurations.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Api.Domain/Security/TokenConfigurations.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Application/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Domain/DTOs/User/UserDtoCreate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Data/Repository/BaseRepository.cs" root0="FORCE_HIGHLIGHTING" />
@@ -116,14 +122,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Api.Domain/DTOs/User/UserDtoCreate.cs" />
-        <option value="$PROJECT_DIR$/Api.Domain/DTOs/User/UserDto.cs" />
-        <option value="$PROJECT_DIR$/Api.CrossCutting/Mappings/DtoToModelProfile.cs" />
         <option value="$PROJECT_DIR$/Api.CrossCutting/Mappings/ModelToEntityProfile.cs" />
         <option value="$PROJECT_DIR$/Api.CrossCutting/Mappings/EntityToDtoProfile.cs" />
         <option value="$PROJECT_DIR$/Api.CrossCutting/DependencyInjection/ConfigureRepository.cs" />
         <option value="$PROJECT_DIR$/Api.Data.Test/BaseTest.cs" />
-        <option value="$PROJECT_DIR$/Api.Data/Context/MyContext.cs" />
         <option value="$PROJECT_DIR$/Api.Data.Test/UsuarioCrudCompleto.cs" />
         <option value="$PROJECT_DIR$/Api.Service.Test/Api.Services.Test.csproj" />
         <option value="$PROJECT_DIR$/Api.Data.Test/Api.Data.Test.csproj" />
@@ -167,6 +169,10 @@
         <option value="$PROJECT_DIR$/Api.Application/appsettings.json" />
         <option value="$PROJECT_DIR$/Api.Service/Services/LoginService.cs" />
         <option value="$PROJECT_DIR$/Api.Application/Startup.cs" />
+        <option value="$PROJECT_DIR$/Api.Integration.Test/LoginResponseDto.cs" />
+        <option value="$PROJECT_DIR$/Api.Data/Context/MyContext.cs" />
+        <option value="$PROJECT_DIR$/Api.Integration.Test/BaseIntegration.cs" />
+        <option value="$PROJECT_DIR$/Api.Integration.Test/TesteLogin.cs" />
       </list>
     </option>
   </component>
@@ -184,6 +190,7 @@
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="RiderXUnitUnitTestingPageId" />
   </component>
@@ -266,7 +273,7 @@
       <workItem from="1595518224499" duration="20013000" />
       <workItem from="1595553822877" duration="16218000" />
       <workItem from="1595622332935" duration="1419000" />
-      <workItem from="1595854045463" duration="6378000" />
+      <workItem from="1595854045463" duration="11369000" />
     </task>
     <task id="LOCAL-00001" summary="Api + Swagger ok">
       <created>1585160902403</created>
@@ -387,7 +394,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595866926256</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Configurar Environment para Rodar os Testes de Integração">
+      <created>1595869150824</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1595869150824</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -438,7 +452,9 @@
     <MESSAGE value="Testes na UserController" />
     <MESSAGE value="Testes na UserController DELETE" />
     <MESSAGE value="Finalizando teste unitarios" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finalizando teste unitarios" />
+    <MESSAGE value="Configurar Environment para Rodar os Testes de Integração" />
+    <MESSAGE value="Implementar a Classe BaseIntegration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementar a Classe BaseIntegration" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -514,13 +530,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Api.Application/Startup.cs</url>
-          <line>197</line>
+          <line>198</line>
           <properties documentPath="$PROJECT_DIR$/Api.Application/Startup.cs" initialLine="184">
             <startOffsets>
-              <option value="7931" />
+              <option value="7978" />
             </startOffsets>
             <endOffsets>
-              <option value="7958" />
+              <option value="8005" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="24" />
@@ -566,39 +582,39 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Api.Application/Startup.cs</url>
-          <line>189</line>
+          <line>190</line>
           <properties documentPath="$PROJECT_DIR$/Api.Application/Startup.cs" initialLine="176">
             <startOffsets>
-              <option value="7511" />
+              <option value="7558" />
             </startOffsets>
             <endOffsets>
-              <option value="7601" />
+              <option value="7648" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Api.Application/Startup.cs</url>
-          <line>191</line>
+          <line>192</line>
           <properties documentPath="$PROJECT_DIR$/Api.Application/Startup.cs" initialLine="178">
             <startOffsets>
-              <option value="7632" />
+              <option value="7679" />
             </startOffsets>
             <endOffsets>
-              <option value="7776" />
+              <option value="7823" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Api.Application/Startup.cs</url>
-          <line>167</line>
+          <line>168</line>
           <properties documentPath="$PROJECT_DIR$/Api.Application/Startup.cs" initialLine="154">
             <startOffsets>
-              <option value="6873" />
+              <option value="6920" />
             </startOffsets>
             <endOffsets>
-              <option value="6905" />
+              <option value="6952" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="30" />
@@ -654,6 +670,19 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Api.Service/Services/LoginService.cs</url>
+          <line>79</line>
+          <properties documentPath="$PROJECT_DIR$/Api.Service/Services/LoginService.cs" initialLine="79">
+            <startOffsets>
+              <option value="3035" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3475" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

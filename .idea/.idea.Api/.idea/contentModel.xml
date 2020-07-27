@@ -166,12 +166,13 @@
         </e>
         <e p="Security" t="Include">
           <e p="SigningConfigurations.cs" t="Include" />
-          <e p="TokenConfigurations.cs" t="Include" />
         </e>
       </e>
       <e p="Api.Integration.Test" t="IncludeRecursive">
         <e p="Api.Integration.Test.csproj" t="IncludeRecursive" />
+        <e p="BaseIntegration.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="LoginResponseDto.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
@@ -179,6 +180,7 @@
             </e>
           </e>
         </e>
+        <e p="TesteLogin.cs" t="Include" />
         <e p="UnitTest1.cs" t="Include" />
       </e>
       <e p="Api.Service" t="IncludeRecursive">
