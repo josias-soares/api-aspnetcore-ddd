@@ -2,6 +2,10 @@
 {
     public class ResponseBaseDto 
     {
+        public ResponseBaseDto()
+        {
+            
+        }
         
     }
 }

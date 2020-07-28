@@ -5,39 +5,41 @@ namespace Domain.Models
     public class UserModel
     {
         private Guid _id;
-        private string _name;
-        private string _email;
-        private DateTime _createAt;
-        private DateTime _updateAt;
-
         public Guid Id
         {
-            get => _id;
-            set => _id = value;
+            get { return _id; }
+            set { _id = value; }
         }
 
+        private string _name;
         public string Name
         {
-            get => _name;
-            set => _name = value;
+            get { return _name; }
+            set { _name = value; }
         }
 
+        private string _email;
         public string Email
         {
-            get => _email;
-            set => _email = value;
+            get { return _email; }
+            set { _email = value; }
         }
 
+        private DateTime _createAt;
         public DateTime CreateAt
         {
-            get => _createAt;
-            set => _createAt = value;
+            get { return _createAt; }
+            set
+            {
+                _createAt = value == null ? DateTime.UtcNow : value;
+            }
         }
 
+        private DateTime _updateAt;
         public DateTime UpdateAt
         {
-            get => _updateAt;
-            set => _updateAt = value;
+            get { return _updateAt; }
+            set { _updateAt = value; }
         }
     }
 }

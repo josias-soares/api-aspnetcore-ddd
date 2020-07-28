@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Net;
 using System.Threading.Tasks;
-using Api.Domain.Entities;
 using Domain.DTOs.User;
 using Domain.Interfaces.Services.Users;
 using Microsoft.AspNetCore.Authorization;
@@ -32,7 +31,6 @@ namespace Application.Controllers
             {
                 return BadRequest(ModelState);
             }
-
             try
             {
                 return Ok(await _service.GetAll());
@@ -60,80 +58,71 @@ namespace Application.Controllers
             {
                 return BadRequest(ModelState);
             }
-
             try
             {
-                var obj = await _service.Get(id);
-
-                if (obj == null)
+                var result = await _service.Get(id);
+                if (result == null)
                 {
-                    return NoContent();
+                    return NotFound();
                 }
-                
-                return  Ok(obj);
+
+                return Ok(result);
             }
             catch (ArgumentException e)
             {
-                Console.WriteLine(e);
-                return StatusCode((int) HttpStatusCode.InternalServerError, e.Message);
+                return StatusCode((int)HttpStatusCode.InternalServerError, e.Message);
             }
         }
-        
-        [HttpPost]
+
         [Authorize("Bearer")]
-        public async Task<ActionResult> Post([FromBody] UserDtoCreate dto)
+        [HttpPost]
+        public async Task<ActionResult> Post([FromBody] UserDtoCreate user)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
-
             try
             {
-                var result = await _service.Post(dto);
-
-                if (result == null)
+                var result = await _service.Post(user);
+                if (result != null)
+                {
+                    return Created(new Uri(Url.Link("GetWithId", new { id = result.Id })), result);
+                }
+                else
                 {
                     return BadRequest();
                 }
-                
-                return Created(
-                    new Uri(Url.Link("GetWithId", new {id = result.Id})), 
-                    result);
             }
             catch (ArgumentException e)
             {
-                Console.WriteLine(e);
-                return StatusCode((int) HttpStatusCode.InternalServerError, e.Message);
+                return StatusCode((int)HttpStatusCode.InternalServerError, e.Message);
             }
         }
 
-        [HttpPut]
         [Authorize("Bearer")]
-        public async Task<ActionResult> Put([FromBody] UserDtoUpdate dto)
+        [HttpPut]
+        public async Task<ActionResult> Put([FromBody] UserDtoUpdate user)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
-
-           
             try
             {
-                var result = await _service.Put(dto);
-
-                if (result == null)
+                var result = await _service.Put(user);
+                if (result != null)
                 {
-                    return BadRequest(); 
+                    return Ok(result);
                 }
-                
-                return Ok(result);
-
+                else
+                {
+                    return BadRequest();
+                }
             }
             catch (ArgumentException e)
             {
-                Console.WriteLine(e);
-                return StatusCode((int) HttpStatusCode.InternalServerError, e.Message);
+                return StatusCode((int)HttpStatusCode.InternalServerError, e.Message);
             }
         }
 

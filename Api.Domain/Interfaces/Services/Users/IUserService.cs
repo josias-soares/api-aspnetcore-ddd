@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Api.Domain.Entities;
 using Domain.DTOs.User;
 
 namespace Domain.Interfaces.Services.Users

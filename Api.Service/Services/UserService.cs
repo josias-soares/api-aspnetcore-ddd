@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Api.Domain.Entities;
 using AutoMapper;
 using Domain.DTOs.User;
+using Domain.Entities;
 using Domain.Interfaces;
 using Domain.Interfaces.Services.Users;
 using Domain.Models;
@@ -38,7 +38,7 @@ namespace Service.Services
             var model = _mapper.Map<UserModel>(dto);
             var entity = _mapper.Map<UserEntity>(model);
             var result = await _repository.InsertAsync(entity);
-            
+
             return _mapper.Map<UserDtoCreateResult>(result);
         }
 
@@ -46,8 +46,8 @@ namespace Service.Services
         {
             var model = _mapper.Map<UserModel>(dto);
             var entity = _mapper.Map<UserEntity>(model);
+
             var result =await _repository.UpdateAsync(entity);
-            
             return _mapper.Map<UserDtoUpdateResult>(result);
         }
 

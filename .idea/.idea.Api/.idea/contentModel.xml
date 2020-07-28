@@ -140,6 +140,9 @@
         </e>
         <e p="Entities" t="Include">
           <e p="BaseEntity.cs" t="Include" />
+          <e p="CepEntity.cs" t="Include" />
+          <e p="MunicipioEntity.cs" t="Include" />
+          <e p="UFEntity.cs" t="Include" />
           <e p="UserEntity.cs" t="Include" />
         </e>
         <e p="Interfaces" t="Include">
@@ -181,7 +184,9 @@
           </e>
         </e>
         <e p="TesteLogin.cs" t="Include" />
-        <e p="UnitTest1.cs" t="Include" />
+        <e p="Usuario" t="Include">
+          <e p="QuandoRequisitarUsuario.cs" t="Include" />
+        </e>
       </e>
       <e p="Api.Service" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />

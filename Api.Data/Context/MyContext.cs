@@ -1,6 +1,6 @@
 using System;
-using Api.Domain.Entities;
 using Data.Mapping;
+using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace Data.Context
@@ -11,7 +11,7 @@ namespace Data.Context
 
         public MyContext(DbContextOptions<MyContext> options) : base(options)
         {
-//            Database.Migrate();
+           // Database.Migrate();
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

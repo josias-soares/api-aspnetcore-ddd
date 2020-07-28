@@ -11,6 +11,8 @@ namespace Domain.DTOs.Login
         public string UserName {get; set;}
         public string Message {get; set;}
 
+        public LoginResponseDto(){ }
+
         public LoginResponseDto(bool authenticate, DateTime created, DateTime expiration, string acessToken, string userName, string message)
         {
             Authenticate = authenticate;

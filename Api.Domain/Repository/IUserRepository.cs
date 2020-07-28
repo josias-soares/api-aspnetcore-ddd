@@ -1,5 +1,5 @@
 ﻿using System.Threading.Tasks;
-using Api.Domain.Entities;
+using Domain.Entities;
 using Domain.Interfaces;
 
 namespace Domain.Repository

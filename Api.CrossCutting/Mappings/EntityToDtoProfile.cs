@@ -1,6 +1,7 @@
-﻿using Api.Domain.Entities;
-using AutoMapper;
+﻿using AutoMapper;
+using Domain.DTOs;
 using Domain.DTOs.User;
+using Domain.Entities;
 
 namespace CrossCutting.Mappings
 {
@@ -8,6 +9,9 @@ namespace CrossCutting.Mappings
     {
         public EntityToDtoProfile()
         {
+            CreateMap<ResponseBaseDto, UserEntity>().ReverseMap();
+            CreateMap<RequestBaseDto, UserEntity>().ReverseMap();
+            CreateMap<UserDto, UserEntity>().ReverseMap();
             CreateMap<UserDto, UserEntity>().ReverseMap();
             CreateMap<UserDtoCreate, UserEntity>().ReverseMap();
             CreateMap<UserDtoCreateResult, UserEntity>().ReverseMap();

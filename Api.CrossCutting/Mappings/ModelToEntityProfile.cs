@@ -1,6 +1,6 @@
-﻿using Api.Domain.Entities;
-using AutoMapper;
+﻿using AutoMapper;
 using Data.Mapping;
+using Domain.Entities;
 using Domain.Models;
 
 namespace CrossCutting.Mappings

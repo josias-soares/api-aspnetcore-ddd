@@ -3,10 +3,11 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
-using Application;
-using AutoMapper;
 using CrossCutting.Mappings;
 using Data.Context;
+using Application;
+using AutoMapper;
+using Domain.DTOs;
 using Domain.DTOs.Login;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.TestHost;
@@ -17,8 +18,8 @@ namespace Api.Integration.Test
 {
     public abstract class BaseIntegration : IDisposable
     {
-        public MyContext MyContext { get; set; } 
-        public HttpClient Client { get; set; }
+        public MyContext MyContext { get; private set; } 
+        public HttpClient Client { get; private set; }
         public IMapper Mapper { get; set; }
         public string hostApi { get; set; }
         public HttpResponseMessage response { get; set; }
@@ -29,9 +30,8 @@ namespace Api.Integration.Test
             var builder = new WebHostBuilder()
                 .UseEnvironment("Testing")
                 .UseStartup<Startup>();
-
             var server = new TestServer(builder);
-            
+
             MyContext = server.Host.Services.GetService(typeof(MyContext)) as MyContext;
             MyContext.Database.Migrate();
 
@@ -52,13 +52,19 @@ namespace Api.Integration.Test
             var jsonLogin = await resultLogin.Content.ReadAsStringAsync();
             var loginObject = JsonConvert.DeserializeObject<LoginResponseDto>(jsonLogin);
             
-            Client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", loginObject.AcessToken);
+            Client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", 
+                loginObject.AcessToken);
+            
+            
         }
 
-        public static async Task<HttpResponseMessage> PostJsonAsync(object dataClass, string url, HttpClient client)
+        public static async Task<HttpResponseMessage> PostJsonAsync(Object dataClass, string url, HttpClient client)
         {
             return await client.PostAsync(url,
-                new StringContent(JsonConvert.SerializeObject(dataClass), Encoding.UTF8, "application/json"));
+                new StringContent(
+                    JsonConvert.SerializeObject(dataClass), 
+                    Encoding.UTF8, 
+                    "application/json"));
         }
 
         public void Dispose()
