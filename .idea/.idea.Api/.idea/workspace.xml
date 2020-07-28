@@ -2,39 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7eff863-731a-49a0-b946-4ba7077a42b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Api.Domain/Entities/CepEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api.Domain/Entities/MunicipioEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api.Domain/Entities/UfEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api.Integration.Test/Usuario/QuandoRequisitarUsuario.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Api/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Api/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Api/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Application/Controllers/UsersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Application/Controllers/UsersController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Application/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Application/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.CrossCutting/DependencyInjection/ConfigureService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.CrossCutting/DependencyInjection/ConfigureService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.CrossCutting/Mappings/DtoToModelProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.CrossCutting/Mappings/DtoToModelProfile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.CrossCutting/Mappings/EntityToDtoProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.CrossCutting/Mappings/EntityToDtoProfile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.CrossCutting/Mappings/ModelToEntityProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.CrossCutting/Mappings/ModelToEntityProfile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Data.Test/UsuarioCrudCompleto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Data.Test/UsuarioCrudCompleto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Data/Context/MyContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Data/Context/MyContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Data/Implementations/UserImplementation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Data/Implementations/UserImplementation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Data/Mapping/UserMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Data/Mapping/UserMap.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Domain/DTOs/Login/LoginResponseDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Domain/DTOs/Login/LoginResponseDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Domain/DTOs/ResponseBaseDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Domain/DTOs/ResponseBaseDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Domain/DTOs/User/UserDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Domain/DTOs/User/UserDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Domain/DTOs/User/UserDtoCreate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Domain/DTOs/User/UserDtoCreate.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Domain/DTOs/User/UserDtoCreateResult.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Domain/DTOs/User/UserDtoCreateResult.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Domain/Entities/BaseEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Domain/Entities/BaseEntity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Domain/Entities/UserEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Domain/Entities/UserEntity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Domain/Interfaces/Services/Users/IUserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Domain/Interfaces/Services/Users/IUserService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Domain/Models/UserModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Domain/Models/UserModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Domain/Repository/IUserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Domain/Repository/IUserRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Integration.Test/Api.Integration.Test.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Integration.Test/Api.Integration.Test.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Integration.Test/BaseIntegration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Integration.Test/BaseIntegration.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Integration.Test/LoginResponseDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Integration.Test/LoginResponseDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Integration.Test/UnitTest1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Service.Test/AutoMapper/UsuarioMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Service.Test/AutoMapper/UsuarioMapper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Service/Services/LoginService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Service/Services/LoginService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api.Service/Services/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Service/Services/UserService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api.Domain/Entities/CepEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Domain/Entities/CepEntity.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -306,7 +274,7 @@
       <workItem from="1595553822877" duration="16218000" />
       <workItem from="1595622332935" duration="1419000" />
       <workItem from="1595854045463" duration="20706000" />
-      <workItem from="1595965311402" duration="4352000" />
+      <workItem from="1595965311402" duration="4608000" />
     </task>
     <task id="LOCAL-00001" summary="Api + Swagger ok">
       <created>1585160902403</created>
@@ -441,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595881022900</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Finalizando test integrations">
+      <created>1595974666121</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1595974666122</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -494,7 +469,8 @@
     <MESSAGE value="Finalizando teste unitarios" />
     <MESSAGE value="Configurar Environment para Rodar os Testes de Integração" />
     <MESSAGE value="Implementar a Classe BaseIntegration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementar a Classe BaseIntegration" />
+    <MESSAGE value="Finalizando test integrations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalizando test integrations" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

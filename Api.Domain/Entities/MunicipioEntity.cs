@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace Domain.Entities
@@ -16,5 +17,6 @@ namespace Domain.Entities
 
         public UfEntity Uf { get; set; }
         
+        public IEnumerable<CepEntity> Ceps { get; set; }
     }
 }

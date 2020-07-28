@@ -18,6 +18,7 @@ namespace Domain.Entities
 
         [Required]
         public Guid MunicipioId { get; set; }
-        
+
+        public MunicipioEntity Municipio { get; set; }
     }
 }
