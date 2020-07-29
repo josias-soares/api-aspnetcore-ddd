@@ -124,12 +124,30 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Domain.csproj" t="IncludeRecursive" />
         <e p="DTOs" t="Include">
+          <e p="Cep" t="Include">
+            <e p="CepDto.cs" t="Include" />
+            <e p="CepDtoCreate.cs" t="Include" />
+            <e p="CepDtoCreateResult.cs" t="Include" />
+            <e p="CepDtoCreateUpdate.cs" t="Include" />
+            <e p="CepDtoUpdateResult.cs" t="Include" />
+          </e>
           <e p="Login" t="Include">
             <e p="LoginRequestDto.cs" t="Include" />
             <e p="LoginResponseDto.cs" t="Include" />
           </e>
+          <e p="Municipio" t="Include">
+            <e p="MunicipioDto.cs" t="Include" />
+            <e p="MunicipioDtoCompleto.cs" t="Include" />
+            <e p="MunicipioDtoCreate.cs" t="Include" />
+            <e p="MunicipioDtoCreateResult.cs" t="Include" />
+            <e p="MunicipioDtoUpdate.cs" t="Include" />
+            <e p="MunicipioDtoUpdateResult.cs" t="Include" />
+          </e>
           <e p="RequestBaseDto.cs" t="Include" />
           <e p="ResponseBaseDto.cs" t="Include" />
+          <e p="Uf" t="Include">
+            <e p="UfDto.cs" t="Include" />
+          </e>
           <e p="User" t="Include">
             <e p="UserDto.cs" t="Include" />
             <e p="UserDtoCreate.cs" t="Include" />

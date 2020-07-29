@@ -12,6 +12,10 @@ namespace Domain.Entities
         
         public int CodIBGE { get; set; }
         
+        public DateTime CreateAt { get; set; }
+        
+        public DateTime UpdateAt { get; set; }
+        
         [Required]
         public Guid UfId { get; set; }
 

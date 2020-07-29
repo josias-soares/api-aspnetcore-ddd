@@ -1,28 +1,22 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using Domain.DTOs.Municipio;
+using Domain.Entities;
 
-namespace Domain.Entities
+namespace Domain.DTOs.Cep
 {
-    public class CepEntity : BaseEntity
+    public class CepDtoCreateResult
     {
-        [Required]
-        [MaxLength(10)]
+        public Guid Id { get; set; }
+        
         public string Cep { get; set; }
-
-        [Required]
-        [MaxLength(60)]
+        
         public string Logradouro { get; set; }
         
-        [MaxLength(10)]
         public string Numero { get; set; }
-
-        [Required]
+        
         public Guid MunicipioId { get; set; }
-
-        public MunicipioEntity Municipio { get; set; }
         
         public DateTime CreateAt { get; set; }
-        
-        public DateTime UpdateAt { get; set; }
     }
 }

@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7eff863-731a-49a0-b946-4ba7077a42b9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Api.Domain/Entities/CepEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Domain/Entities/CepEntity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api.Domain/DTOs/Cep/CepDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api.Domain/DTOs/Cep/CepDtoCreate.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api.Domain/DTOs/Cep/CepDtoCreateResult.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api.Domain/DTOs/Municipio/MunicipioDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api.Domain/DTOs/Municipio/MunicipioDtoCompleto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api.Domain/DTOs/Municipio/MunicipioDtoCreate.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api.Domain/DTOs/Municipio/MunicipioDtoCreateResult.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api.Domain/DTOs/Municipio/MunicipioDtoUpdate.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api.Domain/DTOs/Municipio/MunicipioDtoUpdateResult.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api.Domain/DTOs/Uf/UfDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Api/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Api/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Api/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api.Domain/Entities/MunicipioEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api.Domain/Entities/MunicipioEntity.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,73 +40,40 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Api.Service.Test/Login/QuandoForExecutadoLogin.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Domain/DTOs/Login/LoginRequestDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D8A88419-950C-46D4-9959-2E127A21CECF/12/ad9e992b/BadRequestResult.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Api.Service.Test/AutoMapper/UsuarioMapper.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Api.CrossCutting/Mappings/EntityToDtoProfile.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Api.Application/Controllers/LoginController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Api.CrossCutting/Mappings/ModelToEntityProfile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D8A88419-950C-46D4-9959-2E127A21CECF/0f/8aa1eaf1/StatusCodeResult.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Api.Domain/DTOs/User/UserDtoUpdate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Service.Test/BaseTesteService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D8A88419-950C-46D4-9959-2E127A21CECF/c6/a8b6ef69/NoContentResult.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarGet/RetornoGetNoContent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarGet/RetornoGetBadRequest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DD7BBB1E-B6CB-4178-A82C-D5136B2606B8/28/34a7ea69/HttpResponse.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarGet/RetornoGetOk.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Api.Service.Test/Usuario/QuandoForExecutadoDelete.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/87E8CE02-3EE4-404D-9082-6C8A5038171A/46/89f79914/IActionResult.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Api.Service.Test/Usuario/QuandoForExecutadoPost.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Api.Service.Test/Usuario/QuandoForExecutadoPut.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Api.Service.Test/Usuario/QuandoForExecutadoGetAll.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B4EF600F-4A59-4FE2-865A-8F97F915FB9D/5c/73baaab0/ActionResult.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Api.CrossCutting/Mappings/DtoToModelProfile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarDelete/RetornoDeleteBadRequest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B4EF600F-4A59-4FE2-865A-8F97F915FB9D/4a/9f80848d/ObjectResult.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Api.Service.Test/Usuario/QuandoForExecutadoGet.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Api.Service.Test/Usuario/UsuarioTestes.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarGetAll/RetornoGetAllBadRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarDelete/RetornoDeleteOK.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B4EF600F-4A59-4FE2-865A-8F97F915FB9D/2f/7054505d/BadRequestObjectResult.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/95D243C5-2044-4A19-8315-833738F9B02C/3c/ba456ae2/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Api.Application/Controllers/UsersController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/E407D4BA-C36C-45DA-982B-FD389A659F31/0/IMapper.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Api.Domain/Entities/BaseEntity.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Api.Service/Services/UserService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B4EF600F-4A59-4FE2-865A-8F97F915FB9D/dc/dbb3ca64/ControllerBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Domain/DTOs/User/UserDtoUpdateResult.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarGetAll/RetornoGetAllOk.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4CF17712-9ED0-4C5D-874D-48FEBCC62BBD/3F/OpenApiSecurityRequirement.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Api.Domain/DTOs/ResponseBaseDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Data.Test/UsuarioCrudCompleto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Domain/DTOs/User/UserDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.CrossCutting/DependencyInjection/ConfigureRepository.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Api.Domain/DTOs/Login/LoginResponseDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Domain/Entities/CepEntity.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A85B72D1-BEC8-4488-9AE0-C550953D6935/5f/bc6c0b44/SwaggerGenOptionsExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Domain/Entities/MunicipioEntity.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EF3A9A25-6DA3-4AB1-811C-B1414159C654/6d/96148eca/SecurityTokenDescriptor.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Api.Domain/Entities/UserEntity.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Domain/Entities/UfEntity.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D8A88419-950C-46D4-9959-2E127A21CECF/1c/6e54578b/ControllerBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DA26A7AD-A95D-47DF-990D-4F352096574D/b4/6a7a9b8a/HttpClient.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Domain/Interfaces/Services/Users/IUserService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9CD23B5E-3B0C-4F80-A807-33BCFD1D82E1/70/c5a982ee/ExecutionContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/869E6C21-96FE-460F-9B92-1C6D00DF784B/bf/2673d299/Object.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/32C7DA0B-DE3E-4433-B1FA-3A6000248638/7d/28515fbb/ServiceCollectionServiceExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/AABF22C8-0443-4F75-A371-6B76C765A950/1a/7a5a68a1/IMapper.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B472876C-267A-4954-B0F5-403C1E9387E1/68/92968085/DeveloperExceptionPageExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarUpdate/RetornoUpdateBadRequest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Api.Service/Services/LoginService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Api.Domain/Interfaces/Services/Users/ILoginService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarUpdate/RetornoUpdateOK.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Data/Context/MyContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Data/Context/ContextFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Roaming/NuGet/NuGet.Config" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Api.Data/Implementations/UserImplementation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3689EAD4-2DF5-4FC5-9210-AB09C2879459/e4/143d1481/IConfiguration.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Api.Domain/Repository/IUserRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarCreate/RetornoCreateBadRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Data.Test/BaseTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Data/Mapping/UserMap.cs" root0="FORCE_HIGHLIGHTING" />
@@ -108,32 +87,63 @@
     <setting file="file://$PROJECT_DIR$/Api.Integration.Test/LoginResponseDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Domain/Interfaces/IRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5FCEA300-8C77-4F3A-AFF4-2C62E6BED9B8/17/9f3d655e/ConfigureFromConfigurationOptions`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Api.CrossCutting/DependencyInjection/ConfigureService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Domain/Security/SigningConfigurations.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Api.Application/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Domain/DTOs/User/UserDtoCreate.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Api.Data/Repository/BaseRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Domain/DTOs/RequestBaseDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Domain/DTOs/User/UserDtoCreateResult.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api.Domain/Models/UserModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4CF17712-9ED0-4C5D-874D-48FEBCC62BBD/29/OpenApiContact.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4CF17712-9ED0-4C5D-874D-48FEBCC62BBD/32/OpenApiInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.Service.Test/Login/QuandoForExecutadoLogin.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.Service.Test/AutoMapper/UsuarioMapper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.CrossCutting/Mappings/EntityToDtoProfile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.Application/Controllers/LoginController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.CrossCutting/Mappings/ModelToEntityProfile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.Domain/DTOs/User/UserDtoUpdate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DD7BBB1E-B6CB-4178-A82C-D5136B2606B8/28/34a7ea69/HttpResponse.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.Service.Test/Usuario/QuandoForExecutadoDelete.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/87E8CE02-3EE4-404D-9082-6C8A5038171A/46/89f79914/IActionResult.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.Service.Test/Usuario/QuandoForExecutadoPost.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.Service.Test/Usuario/QuandoForExecutadoPut.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.Service.Test/Usuario/QuandoForExecutadoGetAll.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B4EF600F-4A59-4FE2-865A-8F97F915FB9D/5c/73baaab0/ActionResult.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.CrossCutting/Mappings/DtoToModelProfile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B4EF600F-4A59-4FE2-865A-8F97F915FB9D/4a/9f80848d/ObjectResult.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.Service.Test/Usuario/QuandoForExecutadoGet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.Service.Test/Usuario/UsuarioTestes.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B4EF600F-4A59-4FE2-865A-8F97F915FB9D/2f/7054505d/BadRequestObjectResult.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.Application/Controllers/UsersController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.Domain/Entities/BaseEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.Service/Services/UserService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B4EF600F-4A59-4FE2-865A-8F97F915FB9D/dc/dbb3ca64/ControllerBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4CF17712-9ED0-4C5D-874D-48FEBCC62BBD/3F/OpenApiSecurityRequirement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.Domain/DTOs/ResponseBaseDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.Domain/DTOs/Login/LoginResponseDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A85B72D1-BEC8-4488-9AE0-C550953D6935/5f/bc6c0b44/SwaggerGenOptionsExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EF3A9A25-6DA3-4AB1-811C-B1414159C654/6d/96148eca/SecurityTokenDescriptor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.Domain/Entities/UserEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/32C7DA0B-DE3E-4433-B1FA-3A6000248638/7d/28515fbb/ServiceCollectionServiceExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.Service/Services/LoginService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.Domain/Interfaces/Services/Users/ILoginService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.Domain/DTOs/Cep/CepDtoCreateResult.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.Domain/DTOs/Cep/CepDtoCreate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.Data/Implementations/UserImplementation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.Domain/DTOs/Cep/CepDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.Domain/Repository/IUserRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.Domain/DTOs/Municipio/MunicipioDtoUpdateResult.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.Domain/DTOs/Municipio/MunicipioDtoUpdate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.Domain/DTOs/Municipio/MunicipioDtoCreateResult.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.Domain/DTOs/Municipio/MunicipioDtoCreate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.Domain/DTOs/Municipio/MunicipioDtoCompleto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.Domain/DTOs/Municipio/MunicipioDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.CrossCutting/DependencyInjection/ConfigureService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.Domain/DTOs/Uf/UfDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.Application/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api.Data/Repository/BaseRepository.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Api.Service.Test/Usuario/QuandoForExecutadoPut.cs" />
-        <option value="$PROJECT_DIR$/Api.Domain/Interfaces/Services/Users/IUserService.cs" />
-        <option value="$PROJECT_DIR$/Api.Service.Test/Usuario/QuandoForExecutadoDelete.cs" />
-        <option value="$PROJECT_DIR$/Api.Domain/DTOs/Login/LoginResponseDto.cs" />
-        <option value="$PROJECT_DIR$/Api.Service.Test/Login/QuandoForExecutadoLogin.cs" />
-        <option value="$PROJECT_DIR$/Api.Application.Test/UnitTest1.cs" />
-        <option value="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarCreate/Retorno_BadRequest.cs" />
-        <option value="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarCreate/Retorno_Created.cs" />
-        <option value="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarCreate/RetornoBadRequest.cs" />
-        <option value="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarUpdate/RetornoUpdate.cs" />
-        <option value="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarUpdate/RetornoUpdateOK.cs" />
-        <option value="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarCreate/RetornoCreatedOk.cs" />
         <option value="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarUpdate/RetornoUpdateBadRequest.cs" />
         <option value="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarCreate/RetornoCreateBadRequest.cs" />
         <option value="$PROJECT_DIR$/Api.Application.Test/Usuario/QuandoRequisitarDelete/RetornoDeleteBadRequest.cs" />
@@ -171,8 +181,20 @@
         <option value="$PROJECT_DIR$/Api.Domain/Entities/BaseEntity.cs" />
         <option value="$PROJECT_DIR$/Api.Domain/Entities/UFEntity.cs" />
         <option value="$PROJECT_DIR$/Api.Domain/Entities/UfEntity.cs" />
-        <option value="$PROJECT_DIR$/Api.Domain/Entities/MunicipioEntity.cs" />
         <option value="$PROJECT_DIR$/Api.Domain/Entities/CepEntity.cs" />
+        <option value="$PROJECT_DIR$/Api.Domain/DTOs/Uf/UfDto.cs" />
+        <option value="$PROJECT_DIR$/Api.Domain/DTOs/Municipio/MunicipoDto.cs" />
+        <option value="$PROJECT_DIR$/Api.Domain/DTOs/Municipio/MunicipioCompletoDto.cs" />
+        <option value="$PROJECT_DIR$/Api.Domain/DTOs/Municipio/MunicipioCreateDto.cs" />
+        <option value="$PROJECT_DIR$/Api.Domain/DTOs/Municipio/MunicipioDtoCreate.cs" />
+        <option value="$PROJECT_DIR$/Api.Domain/DTOs/Municipio/MunicipioDtoCreateResult.cs" />
+        <option value="$PROJECT_DIR$/Api.Domain/DTOs/Municipio/MunicipioDtoUpdate.cs" />
+        <option value="$PROJECT_DIR$/Api.Domain/DTOs/Municipio/MunicipioDtoUpdateResult.cs" />
+        <option value="$PROJECT_DIR$/Api.Domain/Entities/MunicipioEntity.cs" />
+        <option value="$PROJECT_DIR$/Api.Domain/DTOs/Municipio/MunicipioDtoCompleto.cs" />
+        <option value="$PROJECT_DIR$/Api.Domain/DTOs/Cep/CepDto.cs" />
+        <option value="$PROJECT_DIR$/Api.Domain/DTOs/Cep/CepDtoCreate.cs" />
+        <option value="$PROJECT_DIR$/Api.Domain/DTOs/Cep/CepDtoCreateResult.cs" />
       </list>
     </option>
   </component>
@@ -274,7 +296,9 @@
       <workItem from="1595553822877" duration="16218000" />
       <workItem from="1595622332935" duration="1419000" />
       <workItem from="1595854045463" duration="20706000" />
-      <workItem from="1595965311402" duration="4608000" />
+      <workItem from="1595965311402" duration="6459000" />
+      <workItem from="1596049488377" duration="1958000" />
+      <workItem from="1596064631727" duration="1641000" />
     </task>
     <task id="LOCAL-00001" summary="Api + Swagger ok">
       <created>1585160902403</created>
@@ -416,7 +440,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595974666122</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Entities">
+      <created>1595974933057</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1595974933057</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -470,7 +501,8 @@
     <MESSAGE value="Configurar Environment para Rodar os Testes de Integração" />
     <MESSAGE value="Implementar a Classe BaseIntegration" />
     <MESSAGE value="Finalizando test integrations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finalizando test integrations" />
+    <MESSAGE value="Entities" />
+    <option name="LAST_COMMIT_MESSAGE" value="Entities" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
